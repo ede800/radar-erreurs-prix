@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T19:33:23+00:00",
+ "updated": "2026-10-19T23:11:26+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -915,24 +915,6 @@
    "source": "hotukdeals",
    "country": "UK",
    "published": "2026-08-22T02:39:26+00:00",
-   "first_seen": "2026-10-18T21:06:22+00:00"
-  },
-  {
-   "id": "dealabs:3397131",
-   "title": "Billet adulte PortAventura World - 2 jours / 3 parcs les 16, 17 ou 18 septembre",
-   "link": "https://www.dealabs.com/bons-plans/billet-adulte-portaventura-world-2-jours-3-parcs-a-950-eur-1re-visite-les-16-17-ou-18-septembre-3397131",
-   "merchant": "PortAventura",
-   "marketplace": "Autre",
-   "price": 9.5,
-   "original_price": null,
-   "discount": null,
-   "currency": "EUR",
-   "category": "Culture & Divertissement",
-   "image": "https://static-pepper.dealabs.com/threads/raw/zCceV/3397131_1/re/150x150/qt/55/3397131_1.jpg",
-   "description": "L’offre officielle CORALBAY est censée appliquer 50 % de réduction sur les billets multijours. Pourtant, pour une première visite le 16, 17 ou 18 septembre 2026, le billet adulte « 2 jours, 3 parcs » passe actuellement de 69 € à seulement 9,50 € dans le panier officiel. Le…",
-   "source": "dealabs",
-   "country": "FR",
-   "published": "2026-08-20T20:26:32+00:00",
    "first_seen": "2026-10-18T21:06:22+00:00"
   }
  ]
