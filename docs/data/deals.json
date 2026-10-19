@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T13:45:37+00:00",
+ "updated": "2026-10-19T19:33:23+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -933,24 +933,6 @@
    "source": "dealabs",
    "country": "FR",
    "published": "2026-08-20T20:26:32+00:00",
-   "first_seen": "2026-10-18T21:06:22+00:00"
-  },
-  {
-   "id": "preisjaeger:368122",
-   "title": "Dulco soft",
-   "link": "https://www.preisjaeger.at/deals/preisfehler-dulco-soft-368122",
-   "merchant": "Apotheke.at",
-   "marketplace": "Autre",
-   "price": 7.69,
-   "original_price": null,
-   "discount": null,
-   "currency": "EUR",
-   "category": "Lebensmittel & Haushalt",
-   "image": "https://static.preisjaeger.at/threads/raw/0gMCB/368122_1/re/150x150/qt/55/368122_1.jpg",
-   "description": "DulcoSoft Lösung Abführmittel bei Verstopfung mit Macrogol sorgt für schonende Erleichterung bei Verstopfung, ohne plötzlichen Drang. Der Inhaltsstoff Macrogol 4000 wirkt auf schonende Weise: Er bindet Wassermoleküle im Darm, der Stuhl wird aufgeweicht, das Stuhlvolumen nimmt…",
-   "source": "preisjaeger",
-   "country": "AT",
-   "published": "2026-08-20T19:10:26+00:00",
    "first_seen": "2026-10-18T21:06:22+00:00"
   }
  ]
