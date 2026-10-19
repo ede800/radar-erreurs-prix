@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T21:06:22+00:00",
+ "updated": "2026-10-19T13:45:37+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,42 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2855966",
+   "title": "[Preisfehler?/Privatleasing] Dacia Spring Extreme Electric 100",
+   "link": "https://www.mydealz.de/deals/preisfehlerprivatleasing-dacia-spring-extreme-electric-100-2855966",
+   "merchant": "LeasingMarkt",
+   "marketplace": "Autre",
+   "price": 1450.0,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Auto & Motorrad",
+   "image": "https://static.mydealz.de/threads/raw/uSQL1/2855966_1/re/150x150/qt/55/2855966_1.jpg",
+   "description": "Hallo zusammen, bei Leasing Markt bin ich auf den Dacia Spring Extreme Electric 100 für umme gestoßen. Sogar ohne Förderung. Vermutlich ein Preisfehler, da mit höherer Laufleistung die Rate sprunghaft ansteigt. Leasingkonditionen: Fahrzeug: Dacia Spring Extreme Electric 100…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-19T07:29:44+00:00",
+   "first_seen": "2026-10-19T13:45:37+00:00"
+  },
+  {
+   "id": "dealabs:3434743",
+   "title": "PC de bureau Alienware Aurora R16 - i9 285K, RTX 5080 16 Go, RAM 64 Go DDR5, SSD 8 To, Refroidissement Liquide, Wi-Fi 7, Windows 11",
+   "link": "https://www.dealabs.com/bons-plans/alienware-aurora-r16-i9-64gb-5080rtx-3434743",
+   "merchant": "Amazon",
+   "marketplace": "Amazon",
+   "price": 1704.3,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "High-Tech",
+   "image": "https://static-pepper.dealabs.com/threads/raw/fq8gU/3434743_1/re/150x150/qt/55/3434743_1.jpg",
+   "description": "Alienware Aurora R16 - PC de Bureau Gaming - Intel Core Ultra 9 285K - 64 Go DDR5-8 to SSD - NVIDIA RTX 5080 16 Go - Refroidissement Liquide - WiFi 7 - Windows 11 Pro Très certainement erreur de prixÀ propos de ce produit J'avais l'habitude d'entendre mon PC plus que le jeu;…",
+   "source": "dealabs",
+   "country": "FR",
+   "published": "2026-10-19T06:58:24+00:00",
+   "first_seen": "2026-10-19T13:45:37+00:00"
+  },
   {
    "id": "mydealz:2855652",
    "title": "[Preisfehler] Keine Abbrechnung an Kaufland Ladesäule Bergkamem - Lokal",
