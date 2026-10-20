@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T23:11:26+00:00",
+ "updated": "2026-10-20T12:49:17+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,60 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2856598",
+   "title": "Preisfehler: Luhomfu Couchtisch mit Bluetooth LED-Licht und Glasverkleidung für 15,99€ (XXXLutz Marketplace)",
+   "link": "https://www.mydealz.de/deals/luhomfu-couchtisch-mit-bluetooth-led-licht-und-glasverkleidung-fur-1599eur-xxxlutz-marketplace-2856598",
+   "merchant": "XXXLutz",
+   "marketplace": "Autre",
+   "price": 15.99,
+   "original_price": 165.99,
+   "discount": 90,
+   "currency": "EUR",
+   "category": "Home & Living",
+   "image": "https://static.mydealz.de/threads/raw/p6per/2856598_1/re/150x150/qt/55/2856598_1.jpg",
+   "description": "Moinsen, bei XXXLutz Marketplace gibt es einen Preisfehler, der Händler Rayce Intel aus Frankreich verkauft den Luhomfu Couchtisch mit Bluetooth LED-Licht und Glasverkleidung für 15,99€ inkl. Versand. Normalerweise kostet es 75,99€. Außerdem gibt es das Luhomfu BÜCHERREGAL…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-20T11:13:10+00:00",
+   "first_seen": "2026-10-20T12:49:17+00:00"
+  },
+  {
+   "id": "mydealz:2856536",
+   "title": "[Preisfehler] Mobiclinic Neptuno Faltbarer Transitrollstuhl (Aluminium, leicht, inkl. Transporttasche, Rot)",
+   "link": "https://www.mydealz.de/deals/preisfehler-mobiclinic-neptuno-faltbarer-transitrollstuhl-aluminium-leicht-inkl-transporttasche-rot-2856536",
+   "merchant": "Amazon",
+   "marketplace": "Amazon",
+   "price": 12.95,
+   "original_price": 115.0,
+   "discount": 89,
+   "currency": "EUR",
+   "category": "Beauty & Gesundheit",
+   "image": "https://static.mydealz.de/threads/raw/ompvm/2856536_1/re/150x150/qt/55/2856536_1.jpg",
+   "description": "Heftiger Preisfehler bei Amazon: Mobiclinic Neptuno Alu-Transitrollstuhl in Rot für nur 12,95 Euro inklusive Versand statt 115 Euro! Hier liegt mit an Sicherheit grenzender Wahrscheinlichkeit ein massiver System- bzw. Tippfehler des Marktplatz-Händlers vor: Der faltbare…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-20T09:22:08+00:00",
+   "first_seen": "2026-10-20T12:49:17+00:00"
+  },
+  {
+   "id": "hotukdeals:5008639",
+   "title": "Estée Lauder Double Wear Stay-in-Place Longwear Matte Foundation SPF 10 and Free Estée Lauder Fresh Face Essentials Gift Set",
+   "link": "https://www.hotukdeals.com/deals/quick-free-estee-lauder-set-wyb-foundation-5008639",
+   "merchant": "Boots",
+   "marketplace": "Autre",
+   "price": 29.62,
+   "original_price": null,
+   "discount": null,
+   "currency": "GBP",
+   "category": "Health & Beauty",
+   "image": "https://images.hotukdeals.com/threads/raw/0fpxC/5008639_1/re/150x150/qt/55/5008639_1.jpg",
+   "description": "Fresh Faced Essentials Kit https://www.boots.com/estee-lauder-fresh-face-essentials-skincare-and-makeup-gift-set-exclusive-to-boots-10394561 Estée Lauder Foundation + FREE Fresh Faced Essentials Kit + £10 Advantage Card points! Boots are offering a Fresh Faced Essentials kit…",
+   "source": "hotukdeals",
+   "country": "UK",
+   "published": "2026-10-19T10:23:07+00:00",
+   "first_seen": "2026-10-20T12:49:17+00:00"
+  },
   {
    "id": "mydealz:2855966",
    "title": "[Preisfehler?/Privatleasing] Dacia Spring Extreme Electric 100",
