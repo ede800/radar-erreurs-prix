@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T07:51:24+00:00",
+ "updated": "2026-10-21T13:18:01+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,42 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2857120",
+   "title": "Preisfehler Steuerung Für EV Ladeparks",
+   "link": "https://www.mydealz.de/deals/preisfehler-steuerung-fur-ev-ladeparks-2857120",
+   "merchant": "Elektromax24",
+   "marketplace": "Autre",
+   "price": 102.52,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Elektronik",
+   "image": "https://static.mydealz.de/threads/raw/kPydX/2857120_1/re/150x150/qt/55/2857120_1.jpg",
+   "description": "Aktueller Preisfehler Kostet normalerweise über 9000€ Ob privat jemand damit was anfangen kann weis ich aber nicht",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-21T13:11:46+00:00",
+   "first_seen": "2026-10-21T13:18:01+00:00"
+  },
+  {
+   "id": "hotukdeals:5010217",
+   "title": "SANDISK Creator Class 10 microSDXC Memory Card - 512 GB - Free C&C",
+   "link": "https://www.hotukdeals.com/deals/sandisk-creator-class-10-microsdxc-memory-card-512-gb-5010217",
+   "merchant": "Currys",
+   "marketplace": "Currys",
+   "price": 49.99,
+   "original_price": null,
+   "discount": null,
+   "currency": "GBP",
+   "category": "Electronics",
+   "image": "https://images.hotukdeals.com/threads/raw/BHQEC/5010217_1/re/150x150/qt/55/5010217_1.jpg",
+   "description": "• 512 GB capacity • Stores up to 160,000 photos or 160 hours of Full HD video • Up to 190 MB/s read speed • Compatible with microSD UHS-I Android devices, digital cameras and laptops • Designed to protect files from water, drops, shocks, magnets, X-rays and extreme temperatures…",
+   "source": "hotukdeals",
+   "country": "UK",
+   "published": "2026-10-21T09:31:23+00:00",
+   "first_seen": "2026-10-21T13:18:01+00:00"
+  },
   {
    "id": "mydealz:2856598",
    "title": "Preisfehler: Luhomfu Couchtisch mit Bluetooth LED-Licht und Glasverkleidung für 15,99€ (XXXLutz Marketplace)",
