@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T12:49:17+00:00",
+ "updated": "2026-10-21T07:51:24+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -951,24 +951,6 @@
    "source": "preisjaeger",
    "country": "AT",
    "published": "2026-08-31T05:49:42+00:00",
-   "first_seen": "2026-10-18T21:06:22+00:00"
-  },
-  {
-   "id": "hotukdeals:4963703",
-   "title": "Selected 1p Chocolate Pouches Via Co-op (Fees Apply)",
-   "link": "https://www.hotukdeals.com/deals/just-eat-1p-chocolate-puches-co-op-4963703",
-   "merchant": "Just Eat",
-   "marketplace": "Autre",
-   "price": 0.01,
-   "original_price": null,
-   "discount": null,
-   "currency": "GBP",
-   "category": "Services & Contracts",
-   "image": "https://images.hotukdeals.com/threads/raw/HoB0R/4963703_1/re/150x150/qt/55/4963703_1.jpg",
-   "description": "Just Eat - Coop 1p Chocolate Chocolate bags 0.01p Delivery, service and bag fee also may apply Examples - M&Ms Crispy 107g Revels Milk Chocolate Bag 101g Galaxy Counters 112g",
-   "source": "hotukdeals",
-   "country": "UK",
-   "published": "2026-08-22T02:39:26+00:00",
    "first_seen": "2026-10-18T21:06:22+00:00"
   }
  ]
