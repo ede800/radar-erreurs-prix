@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T15:25:12+00:00",
+ "updated": "2026-10-22T22:32:01+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,42 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2857800",
+   "title": "MID.YOU ECKSCHREIBTISCH Silberfarben, Weiß, Eiche Artisan - 185/100/72/77/67 cm - elektrisch höhenverstellbar - Preisfehler",
+   "link": "https://www.mydealz.de/deals/midyou-eckschreibtisch-silberfarben-weiss-eiche-artisan-185100727767-cm-preisfehler-2857800",
+   "merchant": "XXXLutz",
+   "marketplace": "Autre",
+   "price": 159.89,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Home & Living",
+   "image": "https://static.mydealz.de/threads/raw/MLJU4/2857800_1/re/150x150/qt/55/2857800_1.jpg",
+   "description": "Produktdetails Allgemeine Angaben Breite/Höhe/Tiefe: 185/100/72/77/67 cm Farbe: Silberfarben, Weiß, Eiche Artisan Technische Details Betriebsart: Netzbetrieb Art der Verstellung: elektrisch höhenverstellbar Verwendungsbereich: Indoor Material Material: Holzwerkstoff, Metall…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-22T22:19:12+00:00",
+   "first_seen": "2026-10-22T22:32:01+00:00"
+  },
+  {
+   "id": "dealabs:3436986",
+   "title": "Aspirateur laveur Dyson V12s Detect Slim Submarine - 545 W Gris (Vendeur Darty)",
+   "link": "https://www.dealabs.com/bons-plans/aspirateur-laveur-dyson-v12s-detect-slim-submarine-545-w-gris-3436986",
+   "merchant": "Fnac",
+   "marketplace": "Fnac",
+   "price": 278.38,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Maison & Habitat",
+   "image": "https://static-pepper.dealabs.com/threads/raw/bDNJq/3436986_1/re/150x150/qt/55/3436986_1.jpg",
+   "description": "Aspirateur laveur Dyson V12s Detect Slim Submarine 545 W Gris Gamme d'aspirateur Dyson V12 Detect Slim Usage aspirateur Aspirateur à main intégré Sol Type de brosse aspirateur / nettoyeur Brosse motorisée Fonctionnalités aspirateur balai/à main Modèle léger (<5 kg) Eau et…",
+   "source": "dealabs",
+   "country": "FR",
+   "published": "2026-10-22T20:37:47+00:00",
+   "first_seen": "2026-10-22T22:32:01+00:00"
+  },
   {
    "id": "preisjaeger:371072",
    "title": "?? Preisfehler ??Mister Sandman KALTSCHAUMMATRATZE",
