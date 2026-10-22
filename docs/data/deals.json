@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T13:18:01+00:00",
+ "updated": "2026-10-22T15:25:12+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,42 @@
   }
  ],
  "deals": [
+  {
+   "id": "preisjaeger:371072",
+   "title": "?? Preisfehler ??Mister Sandman KALTSCHAUMMATRATZE",
+   "link": "https://www.preisjaeger.at/deals/mister-sandman-kaltschaummatratze-371072",
+   "merchant": "XXXLutz",
+   "marketplace": "Autre",
+   "price": 9.99,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Home & Living",
+   "image": "https://static.preisjaeger.at/threads/raw/5JJto/371072_1/re/150x150/qt/55/371072_1.jpg",
+   "description": "90x190 cm – ergonomische 7-Zonen Matratze H2 & H3 – 18 cm Höhe",
+   "source": "preisjaeger",
+   "country": "AT",
+   "published": "2026-10-22T13:25:29+00:00",
+   "first_seen": "2026-10-22T15:25:12+00:00"
+  },
+  {
+   "id": "mydealz:2857560",
+   "title": "[ edeka ] TENA: 2 Packungen für nur 0,59 € statt 7,50 € – dank Coupon-Kombination! (Preisfehler?)",
+   "link": "https://www.mydealz.de/deals/edeka-tena-2-packungen-fur-nur-059-eur-statt-750-eur-dank-coupon-kombination-preisfehler-2857560",
+   "merchant": "EDEKA",
+   "marketplace": "Autre",
+   "price": 0.59,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Beauty & Gesundheit",
+   "image": "https://static.mydealz.de/threads/raw/iJV8t/2857560_1/re/150x150/qt/55/2857560_1.jpg",
+   "description": "Bei EDEKA gibt es bis zum 24.10. TENA-Produkte für 2,99 € pro Packung. Mit mehreren kombinierbaren Coupons könnt ihr den Preis für zwei Packungen auf nur 0,59 € senken! So funktioniert die Kombination: ➡️ 2 Packungen TENA kaufen: 5,98 € ➡️ EDEKA-App-Coupon aktivieren: 5,08 € ➡️…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-22T12:36:50+00:00",
+   "first_seen": "2026-10-22T15:25:12+00:00"
+  },
   {
    "id": "mydealz:2857120",
    "title": "Preisfehler Steuerung Für EV Ladeparks",
