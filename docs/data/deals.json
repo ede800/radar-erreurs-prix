@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T16:02:54+00:00",
+ "updated": "2026-10-23T22:56:23+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,24 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2858293",
+   "title": "Erwischt Gutscheinfehler ( Preisfehler ) im Payback Prämienshop - Abzug pro Gutschein / nicht Gesamtsumme",
+   "link": "https://www.mydealz.de/deals/erwischt-fehler-im-payback-pramienshop-abzug-pro-gutschein-nicht-gesamtsumme-2858293",
+   "merchant": "PAYBACK",
+   "marketplace": "Autre",
+   "price": null,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Dienstleistungen & Verträge",
+   "image": "https://static.mydealz.de/threads/raw/KKchN/2858293_1/re/150x150/qt/55/2858293_1.jpg",
+   "description": "Da ist er, der Fehler, auf den ich so lange gewartet habe. Mal schauen, wie lange es möglich sein wird, ich drücke allen die Daumen. Der Gutschein TREUE264 zieht ab eine Gesamtsumme von 4000 Punkten, PRO Gutschein im Warenkorb 150 Punkte ab, auch auf 10 x 5€. Beispiel 1 10 x…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-23T20:00:36+00:00",
+   "first_seen": "2026-10-23T22:56:23+00:00"
+  },
   {
    "id": "mydealz:2858160",
    "title": "Preisfehler? - Backofen Electrolux KOHHH00BX3 Edelstahl 2060 Watt 58 Liter | Prime",
