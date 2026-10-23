@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T01:04:25+00:00",
+ "updated": "2026-10-23T16:02:54+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,24 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2858160",
+   "title": "Preisfehler? - Backofen Electrolux KOHHH00BX3 Edelstahl 2060 Watt 58 Liter | Prime",
+   "link": "https://www.mydealz.de/deals/preisfehler-backofen-electrolux-kohhh00bx3-edelstahl-2060-watt-58-liter-prime-2858160",
+   "merchant": "Amazon",
+   "marketplace": "Amazon",
+   "price": 141.86,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Home & Living",
+   "image": "https://static.mydealz.de/threads/raw/aHTPx/2858160_1/re/150x150/qt/55/2858160_1.jpg",
+   "description": "Electrolux KOHHH00BX3 ist aktuell bei Amazon erhältlich – für 141,86 € inklusive Versand. ⭐⭐⭐⭐⭐ Amazon-Kundenbewertung: 4,6 von 5 Sternen (2 Rezensionen) Ausstattung und Eigenschaften • Elektrischer Ofen, belüftet, 58 l, 60 cm, Klasse A, Dampffarbe, Edelstahl – KOHHH00BX3 •…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-23T14:27:23+00:00",
+   "first_seen": "2026-10-23T16:02:54+00:00"
+  },
   {
    "id": "mydealz:2857815",
    "title": "Preisfehler: Rotes Weihnachts-Samtkleid Langarm Gr. M (Amazon Prime)",
