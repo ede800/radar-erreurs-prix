@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T22:32:01+00:00",
+ "updated": "2026-10-23T01:04:25+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,24 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2857815",
+   "title": "Preisfehler: Rotes Weihnachts-Samtkleid Langarm Gr. M (Amazon Prime)",
+   "link": "https://www.mydealz.de/deals/preisfehler-rotes-weihnachts-samtkleid-langarm-gr-m-amazon-prime-2857815",
+   "merchant": "Amazon",
+   "marketplace": "Amazon",
+   "price": 0.99,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Fashion & Accessoires",
+   "image": "https://static.mydealz.de/threads/raw/cOTRf/2857815_1/re/150x150/qt/55/2857815_1.jpg",
+   "description": "Durch einen Preisfehler + Gutscheineingabe KVDB92HB beim Bezahlprozess erhaltet ihr, so nicht storniert wird, das Kleid in Größe M für 0,99€ (Lieferzeit ca. 2 bis 3 Wochen) Festliches Damen-Weihnachtskleid aus rotem Samt mit weißem Kunstfellbesatz und schwarzem Taillengürtel…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-23T00:07:06+00:00",
+   "first_seen": "2026-10-23T01:04:25+00:00"
+  },
   {
    "id": "mydealz:2857800",
    "title": "MID.YOU ECKSCHREIBTISCH Silberfarben, Weiß, Eiche Artisan - 185/100/72/77/67 cm - elektrisch höhenverstellbar - Preisfehler",
