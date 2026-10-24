@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T22:56:23+00:00",
+ "updated": "2026-10-24T11:20:24+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,24 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2858489",
+   "title": "[Kaufland Neuköllner Tor Berlin] Preisfehler: Funk-Grill Thermometer, ggf. bundesweit?",
+   "link": "https://www.mydealz.de/deals/lokal-kaufland-funk-grill-thermometer-2858489",
+   "merchant": "Kaufland",
+   "marketplace": "Kaufland",
+   "price": 0.01,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Garten & Baumarkt",
+   "image": "https://static.mydealz.de/threads/raw/HG23c/2858489_1/re/150x150/qt/55/2858489_1.jpg",
+   "description": "Lokal bei Kaufland Neuköllner Tor: Preisfehler beim Funk-Grill-Thermometer. Sollte eigentlich 9,99 kosten und ich habe es wegen der beiden Sonden mitgenommen. An der Kasse gemerkt, dass es nur nen Cent gekostet hat. Am bestem Kauf man was anderes dazu, damit es an der Kasse…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-24T09:59:35+00:00",
+   "first_seen": "2026-10-24T11:20:24+00:00"
+  },
   {
    "id": "mydealz:2858293",
    "title": "Erwischt Gutscheinfehler ( Preisfehler ) im Payback Prämienshop - Abzug pro Gutschein / nicht Gesamtsumme",
