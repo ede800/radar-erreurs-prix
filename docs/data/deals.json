@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T00:23:52+00:00",
+ "updated": "2026-10-25T19:51:02+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,24 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2859084",
+   "title": "[Preisfehler] Promedia24 Webhosting – 50% Lifetime-Rabatt (wiederkehrend) statt 10% durch Gutschein",
+   "link": "https://www.mydealz.de/deals/preisfehler-promedia24-webhosting-50-dauerhafter-rabatt-statt-10-durch-gutscheincode-2859084",
+   "merchant": null,
+   "marketplace": "Autre",
+   "price": 23.92,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Dienstleistungen & Verträge",
+   "image": "https://static.mydealz.de/threads/raw/NmVM8/2859084_1/re/150x150/qt/55/2859084_1.jpg",
+   "description": "Hi zusammen, bin gerade auf der Startseite von promedia24.de über einen Gutscheincode für Webhosting gestolpert. Laut Banner auf der Startseite soll der Code eigentlich 10% dauerhaften Rabatt bringen. Hab das eben im Warenkorb getestet: Der Code zieht aktuell aber 50% dauerhaft…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-25T18:34:46+00:00",
+   "first_seen": "2026-10-25T19:51:02+00:00"
+  },
   {
    "id": "mydealz:2858705",
    "title": "[Preisfehler] [Freebies] Bandai Namco Store - Kostenlos Alle Artikeln aus dem Prämie Shop bestellen",
