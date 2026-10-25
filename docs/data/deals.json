@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T11:20:24+00:00",
+ "updated": "2026-10-25T00:23:52+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,24 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2858705",
+   "title": "[Preisfehler] [Freebies] Bandai Namco Store - Kostenlos Alle Artikeln aus dem Prämie Shop bestellen",
+   "link": "https://www.mydealz.de/deals/preisfehler-freebies-bandai-namco-store-kostenlos-alle-artikeln-aus-dem-pramie-shop-bestellen-2858705",
+   "merchant": "Bandai Namco",
+   "marketplace": "Autre",
+   "price": null,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Gaming",
+   "image": "https://static.mydealz.de/threads/raw/RgtbJ/2858705_1/re/150x150/qt/55/2858705_1.jpg",
+   "description": "Sehr geehrte Damen und Herren, Im Bandai Namco Store könnt ihr aus dem Prämie-Shop alle Artikeln Kostenlos zu euch liefern lassen, ohne Prämien-Punkte zu besitzen. Normalerweise braucht man für das Sortiment \"Club-Punkte\" was bei jeder Physischen Playstation oder Xbox Spiel im…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-24T23:54:22+00:00",
+   "first_seen": "2026-10-25T00:23:52+00:00"
+  },
   {
    "id": "mydealz:2858489",
    "title": "[Kaufland Neuköllner Tor Berlin] Preisfehler: Funk-Grill Thermometer, ggf. bundesweit?",
