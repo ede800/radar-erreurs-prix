@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T19:51:02+00:00",
+ "updated": "2026-10-25T22:08:57+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,24 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2859154",
+   "title": "Preisfehler : Castrol Getriebeöl Axle Z LS 90 1L für 2€ ATU - Abholung",
+   "link": "https://www.mydealz.de/deals/preisfehler-castrol-getriebeol-axle-z-ls-90-1l-fur-2eur-atu-abholung-2859154",
+   "merchant": "A.T.U",
+   "marketplace": "Autre",
+   "price": 2.0,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Auto & Motorrad",
+   "image": "https://static.mydealz.de/threads/raw/cJFLK/2859154_1/re/150x150/qt/55/2859154_1.jpg",
+   "description": "Moin, bei ATU online gibt es wohl aktuell einen Preisfehler: Castrol Getriebeöl Axle Z LS 90 1L für 2€ Ihr müsst es online bestellen, eure Filiale auswählen und abholen. Ich habe es mit mehreren Filialen getestet, bei allen in meiner Nähe ging es zu dem Preis.…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-25T21:18:09+00:00",
+   "first_seen": "2026-10-25T22:08:57+00:00"
+  },
   {
    "id": "mydealz:2859084",
    "title": "[Preisfehler] Promedia24 Webhosting – 50% Lifetime-Rabatt (wiederkehrend) statt 10% durch Gutschein",
