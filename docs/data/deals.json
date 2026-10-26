@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T22:08:57+00:00",
+ "updated": "2026-10-26T22:01:40+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,24 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2859633",
+   "title": "(Preisfehler) Koffer STRATIC LIGHT+-Serie 57cm",
+   "link": "https://www.mydealz.de/deals/preisfehler-koffer-stratic-light-serie-57cm-2859633",
+   "merchant": "Amazon",
+   "marketplace": "Amazon",
+   "price": 20.89,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Fashion & Accessoires",
+   "image": "https://static.mydealz.de/threads/raw/ecPJ2/2859633_1/re/150x150/qt/55/2859633_1.jpg",
+   "description": "Bei Amazon bekommt ihr aktuell den Reisekoffer in Dunkelblau für nur 20,89 €. Die anderen Farbvarianten sind dagegen deutlich teurer und kosten laut aktuellem Preisvergleich auf der Produktseite über 100 €. Preisvergleich der Farbvarianten: Dunkelblau: 20,89 € Rot: 106,36 €…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-26T18:06:24+00:00",
+   "first_seen": "2026-10-26T22:01:40+00:00"
+  },
   {
    "id": "mydealz:2859154",
    "title": "Preisfehler : Castrol Getriebeöl Axle Z LS 90 1L für 2€ ATU - Abholung",
