@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T19:58:19+00:00",
+ "updated": "2026-10-29T17:00:02+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,42 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2861134",
+   "title": "Preisfehler oder Ausverkauf: Faltpavillon & Partyzelt für Camping, Outdoor, Festival 4,6 m",
+   "link": "https://www.mydealz.de/deals/preisfehler-oder-ausverkauf-faltpavillon-partyzelt-fur-camping-outdoor-festival-46-m-2861134",
+   "merchant": "Amazon",
+   "marketplace": "Amazon",
+   "price": 15.95,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Garten & Baumarkt",
+   "image": "https://static.mydealz.de/threads/raw/wUI7y/2861134_1/re/150x150/qt/55/2861134_1.jpg",
+   "description": "Gerade zufällig bei Amazon entdeckt. Der nächste Sommer kommt bestimmt Verkauf und Versand über Marketplace, deutscher Händler in Stapelfeld bei Hamburg (nicht Amazon direkt).Der Faltpavillon & Partyzelt für Camping, Outdoor, Festival mit den Maßen 4,6 m, erhältlich bei Amazon…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-29T11:34:13+00:00",
+   "first_seen": "2026-10-29T17:00:02+00:00"
+  },
+  {
+   "id": "mydealz:2861129",
+   "title": "Möglicher Preisfehler: Lumaland Outdoor Pop-Up Pavillon 2,5 x 2,5 m in Schwarz & Grau inkl. Seitenteil, Tasche & Heringe - Amazon Prime",
+   "link": "https://www.mydealz.de/deals/moglicher-preisfehler-lumaland-outdoor-pop-up-pavillon-25-x-25-m-in-schwarz-grau-inkl-seitenteil-tasche-heringe-amazon-prime-2861129",
+   "merchant": "Amazon",
+   "marketplace": "Amazon",
+   "price": 23.99,
+   "original_price": 96.99,
+   "discount": 75,
+   "currency": "EUR",
+   "category": "Garten & Baumarkt",
+   "image": "https://static.mydealz.de/threads/raw/pSzT9/2861129_1/re/150x150/qt/55/2861129_1.jpg",
+   "description": "Möglicher Preisfehler oder extremer Preissturz! Den Lumaland Outdoor Pop-Up Pavillon gibt es aktuell für nur 23,99 € statt 96,99 € laut Preisvergleich Lumaland Outdoor Pop-Up Pavillon 2,5 x 2,5 m PREMIUM-QUALITÄT: Vielseitiger Garten- und Party-Pavillon für Camping, Reisen,…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-29T11:26:13+00:00",
+   "first_seen": "2026-10-29T17:00:02+00:00"
+  },
   {
    "id": "mydealz:2860736",
    "title": "(Preisfehler) frei öl ANTI AGE HYALURON LIFT All-In-One Konzentrat, Pflegecreme inklusive Anti Aging Serum mit 4-fach Anti-Age-Wirkung,30 ml",
