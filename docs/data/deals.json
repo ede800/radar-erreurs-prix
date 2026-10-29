@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T17:00:02+00:00",
+ "updated": "2026-10-29T21:37:20+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,24 @@
   }
  ],
  "deals": [
+  {
+   "id": "mydealz:2861305",
+   "title": "[Preisfehler] HARBR. hotel Ludwigsburg (07.–08.12.2026) – 1 Nacht",
+   "link": "https://www.mydealz.de/deals/preisfehler-harbr-hotel-ludwigsburg-07-08122026-1-nacht-2861305",
+   "merchant": null,
+   "marketplace": "Autre",
+   "price": 15.0,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Urlaub & Reisen",
+   "image": "https://static.mydealz.de/threads/raw/x8ZqW/2861305_1/re/150x150/qt/55/2861305_1.jpg",
+   "description": "Moin zusammen, hier gibt es gerade einen extrem starken Kurs für das moderne HARBR. hotel Ludwigsburg. Für die Nacht von Montag, 07.12.2026 auf Dienstag, 08.12.2026 zahlt ihr: 1 Person: nur 15 € 2 Personen: nur 25 € (entspricht schlanken 12,50 € pro Person!) Normalerweise liegt…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-10-29T17:01:40+00:00",
+   "first_seen": "2026-10-29T21:37:20+00:00"
+  },
   {
    "id": "mydealz:2861134",
    "title": "Preisfehler oder Ausverkauf: Faltpavillon & Partyzelt für Camping, Outdoor, Festival 4,6 m",
