@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T21:37:20+00:00",
+ "updated": "2026-10-30T07:21:46+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -1329,42 +1329,6 @@
    "source": "preisjaeger",
    "country": "AT",
    "published": "2026-09-04T06:51:54+00:00",
-   "first_seen": "2026-10-18T21:06:22+00:00"
-  },
-  {
-   "id": "preisjaeger:368527",
-   "title": "(Sammel-Deal) Pagro Mega Rabatte / Preisfehler: zB Adidas Bundesliga Fußball um 3,50 € - Tischtennis-Set nur 0,80 €",
-   "link": "https://www.preisjaeger.at/deals/sammel-deal-pagro-mega-rabatte-preisfehler-zb-adidas-bundesliga-ball-um-350-eur-368527",
-   "merchant": "Pagro / Libro",
-   "marketplace": "Autre",
-   "price": 3.5,
-   "original_price": 24.1,
-   "discount": 85,
-   "currency": "EUR",
-   "category": "Sport & Outdoor",
-   "image": "https://static.preisjaeger.at/threads/raw/xMbJx/368527_1/re/150x150/qt/55/368527_1.jpg",
-   "description": "Los geht es! Die Preise sind so günstig, dass man hier nicht mal mehr vergleichen muss... entweder ein totaler Abverkauf, Hauptsache alles raus, oder ganz viele Preisfehler, die sich gerade hier eingeschlichen haben: Adidas Bundesliga Ball um nur 3,50 € statt24,10 € Fußball…",
-   "source": "preisjaeger",
-   "country": "AT",
-   "published": "2026-08-31T05:55:17+00:00",
-   "first_seen": "2026-10-18T21:06:22+00:00"
-  },
-  {
-   "id": "preisjaeger:368524",
-   "title": "(Preisfehler oder MEGA Sale?) Wilson Basketballkorb - NBA-Ring Ø 47,5 cm inkl. Netz - um nur 8,50 € bei Pagro",
-   "link": "https://www.preisjaeger.at/deals/preisfehler-wilson-basketballkorb-nba-ring-o-475-cm-inkl-netz-um-nur-850-eur-bei-pagro-368524",
-   "merchant": "Pagro / Libro",
-   "marketplace": "Autre",
-   "price": 8.5,
-   "original_price": null,
-   "discount": null,
-   "currency": "EUR",
-   "category": "Sport & Outdoor",
-   "image": "https://static.preisjaeger.at/threads/raw/xXrIM/368524_1/re/150x150/qt/55/368524_1.jpg",
-   "description": "Ziemlich sicher ein kleiner Preisfehler bei Pagro... anders kann man sich diesen Preis kaum erklären... Kompletter Wilson-Basketballkorb mit bedruckter Rückwand und abklappbarem Metallring zum Kampfpreis: einfach an die Wand montieren und loslegen, drinnen wie draußen. Der…",
-   "source": "preisjaeger",
-   "country": "AT",
-   "published": "2026-08-31T05:49:42+00:00",
    "first_seen": "2026-10-18T21:06:22+00:00"
   }
  ]
