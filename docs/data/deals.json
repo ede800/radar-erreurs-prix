@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T07:21:46+00:00",
+ "updated": "2026-11-01T15:20:27+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,42 @@
   }
  ],
  "deals": [
+  {
+   "id": "preisjaeger:371685",
+   "title": "(Preisfehler?) home24 Kommode aus massiver Wildeiche (80x89x40cm, 4 Schubladen)",
+   "link": "https://www.preisjaeger.at/deals/preisfehler-home24-kommode-aus-massiver-wildeiche-80x89x40cm-4-schubladen-371685",
+   "merchant": "XXXLutz",
+   "marketplace": "Autre",
+   "price": 99.0,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Home & Living",
+   "image": "https://static.preisjaeger.at/threads/raw/lp2a5/371685_1/re/150x150/qt/55/371685_1.jpg",
+   "description": "Möglicher Preisfehler bei XXXLutz: Die home24 Kommode aus massiver, geölter Wildeiche kostet online gerade nur 99 €, die UVP liegt bei 1.058 €. Abholung in der Filiale ist gratis. Wer zuschlagen will, sollte schnell sein. Eine Stornierung durch XXXLutz ist natürlich möglich.…",
+   "source": "preisjaeger",
+   "country": "AT",
+   "published": "2026-11-01T14:44:48+00:00",
+   "first_seen": "2026-11-01T15:20:27+00:00"
+  },
+  {
+   "id": "mydealz:2862776",
+   "title": "*Preisfehler* Stozzon Mundspray",
+   "link": "https://www.mydealz.de/deals/preisfehler-stozzon-mundspray-2862776",
+   "merchant": "medpex",
+   "marketplace": "Autre",
+   "price": 3.61,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Beauty & Gesundheit",
+   "image": "https://static.mydealz.de/threads/raw/1NVK2/2862776_1/re/150x150/qt/55/2862776_1.jpg",
+   "description": "Preisfehler bei Medplex Das Stozzon Mundspray ist mit 0.12€ zu bestellen. Lohnt sich als Füllartikel oder als zubestellung zu versandkostenfreien Rezeptbestellung. Versandkosten sind hoch im Verhältnis zum Produktpreis. Netto sind es es 99% Rabatt. Aktuell bei Idealo noch mit…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-11-01T12:55:06+00:00",
+   "first_seen": "2026-11-01T15:20:27+00:00"
+  },
   {
    "id": "mydealz:2861305",
    "title": "[Preisfehler] HARBR. hotel Ludwigsburg (07.–08.12.2026) – 1 Nacht",
