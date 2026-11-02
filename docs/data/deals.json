@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-02T20:41:33+00:00",
+ "updated": "2026-11-02T20:42:06+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -113,7 +113,7 @@
    "price_history": [
     {
      "price": 36.99,
-     "at": "2026-11-02T20:38:01+00:00",
+     "at": "2026-11-02T20:42:06+00:00",
      "deal": "dealabs:3444780"
     }
    ]
@@ -175,7 +175,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 194,
+   "age_minutes": 195,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Kaufland",
@@ -185,7 +185,7 @@
    "price_history": [
     {
      "price": 0.01,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2863659"
     }
    ]
@@ -248,7 +248,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": false,
-   "age_minutes": 862,
+   "age_minutes": 863,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Monster-Shop",
@@ -315,7 +315,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 1796,
+   "age_minutes": 1797,
    "is_fresh": false,
    "active": false,
    "merchant_name": "XXXLutz",
@@ -325,7 +325,7 @@
    "price_history": [
     {
      "price": 99.0,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "preisjaeger:371685"
     }
    ]
@@ -388,7 +388,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 1906,
+   "age_minutes": 1907,
    "is_fresh": false,
    "active": false,
    "merchant_name": "medpex",
@@ -398,7 +398,7 @@
    "price_history": [
     {
      "price": 3.61,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2862776"
     }
    ]
@@ -458,7 +458,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 5979,
+   "age_minutes": 5980,
    "is_fresh": false,
    "active": false,
    "merchant_name": null,
@@ -468,7 +468,7 @@
    "price_history": [
     {
      "price": 15.0,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2861305"
     }
    ]
@@ -549,7 +549,7 @@
    "price_history": [
     {
      "price": 15.95,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2861134"
     }
    ]
@@ -632,7 +632,7 @@
    "price_history": [
     {
      "price": 23.99,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2861129"
     }
    ]
@@ -695,7 +695,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 7498,
+   "age_minutes": 7499,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -713,7 +713,7 @@
    "price_history": [
     {
      "price": 3.25,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2860736"
     }
    ]
@@ -780,7 +780,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 7581,
+   "age_minutes": 7582,
    "is_fresh": false,
    "active": false,
    "merchant_name": "OBI",
@@ -790,7 +790,7 @@
    "price_history": [
     {
      "price": 5555.0,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2860686"
     }
    ]
@@ -855,7 +855,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 7599,
+   "age_minutes": 7600,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -873,7 +873,7 @@
    "price_history": [
     {
      "price": 3.99,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2860663"
     }
    ]
@@ -946,7 +946,7 @@
    "price_history": [
     {
      "price": 759.75,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2860405"
     }
    ]
@@ -1019,7 +1019,7 @@
    "price_history": [
     {
      "price": 639.75,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2860401"
     }
    ]
@@ -1100,7 +1100,7 @@
    "price_history": [
     {
      "price": 4.59,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2859799"
     }
    ]
@@ -1181,7 +1181,7 @@
    "price_history": [
     {
      "price": 20.89,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2859633"
     }
    ]
@@ -1254,7 +1254,7 @@
    "price_history": [
     {
      "price": 2.0,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2859154"
     }
    ]
@@ -1319,7 +1319,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 11646,
+   "age_minutes": 11647,
    "is_fresh": false,
    "active": true,
    "merchant_name": null,
@@ -1329,7 +1329,7 @@
    "price_history": [
     {
      "price": 23.92,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2859084"
     }
    ]
@@ -1455,7 +1455,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 13601,
+   "age_minutes": 13602,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Kaufland",
@@ -1465,7 +1465,7 @@
    "price_history": [
     {
      "price": 0.01,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2858489"
     }
    ]
@@ -1525,7 +1525,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 14440,
+   "age_minutes": 14441,
    "is_fresh": false,
    "active": false,
    "merchant_name": "PAYBACK",
@@ -1636,7 +1636,7 @@
    "price_history": [
     {
      "price": 141.86,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2858160"
     }
    ]
@@ -1678,7 +1678,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 15634,
+   "age_minutes": 15635,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -1770,7 +1770,7 @@
    "price_history": [
     {
      "price": 159.89,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2857800"
     }
    ]
@@ -1852,7 +1852,7 @@
    "decimal_error": false,
    "family": "Aspirateur",
    "price_verified": true,
-   "age_minutes": 15843,
+   "age_minutes": 15844,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Fnac",
@@ -1862,7 +1862,7 @@
    "price_history": [
     {
      "price": 278.38,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "dealabs:3436986"
     }
    ]
@@ -1935,7 +1935,7 @@
    "price_history": [
     {
      "price": 9.99,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "preisjaeger:371072"
     }
    ]
@@ -1997,7 +1997,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 16324,
+   "age_minutes": 16325,
    "is_fresh": false,
    "active": false,
    "merchant_name": "EDEKA",
@@ -2007,7 +2007,7 @@
    "price_history": [
     {
      "price": 0.59,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2857560"
     }
    ]
@@ -2049,7 +2049,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 17729,
+   "age_minutes": 17730,
    "is_fresh": false,
    "active": true,
    "baseline_price": null,
@@ -2148,7 +2148,7 @@
    "price_history": [
     {
      "price": 49.99,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "hotukdeals:5010217"
     }
    ]
@@ -2223,7 +2223,7 @@
    "price_history": [
     {
      "price": 15.99,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2856598"
     }
    ]
@@ -2304,7 +2304,7 @@
    "price_history": [
     {
      "price": 12.95,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2856536"
     }
    ]
@@ -2376,7 +2376,7 @@
    "price_history": [
     {
      "price": 29.62,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "hotukdeals:5008639"
     }
    ]
@@ -2439,7 +2439,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 20951,
+   "age_minutes": 20952,
    "is_fresh": false,
    "active": false,
    "merchant_name": "LeasingMarkt",
@@ -2449,7 +2449,7 @@
    "price_history": [
     {
      "price": 1450.0,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2855966"
     }
    ]
@@ -2540,7 +2540,7 @@
    "price_history": [
     {
      "price": 1704.3,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "dealabs:3434743"
     }
    ]
@@ -2599,7 +2599,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 22044,
+   "age_minutes": 22045,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Kaufland",
@@ -2662,7 +2662,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 22345,
+   "age_minutes": 22346,
    "is_fresh": false,
    "active": false,
    "merchant_name": "HEM Tankstellen",
@@ -2672,7 +2672,7 @@
    "price_history": [
     {
      "price": 1.45,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2855553"
     }
    ]
@@ -2750,7 +2750,7 @@
    "price_history": [
     {
      "price": 2.44,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "hotukdeals:5007336"
     }
    ]
@@ -2833,7 +2833,7 @@
    "price_history": [
     {
      "price": 12.47,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "preisjaeger:370737"
     }
    ]
@@ -2896,7 +2896,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 28015,
+   "age_minutes": 28016,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2914,7 +2914,7 @@
    "price_history": [
     {
      "price": 0.66,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2853791"
     }
    ]
@@ -2983,7 +2983,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 28069,
+   "age_minutes": 28070,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3001,7 +3001,7 @@
    "price_history": [
     {
      "price": 3.4,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2853762"
     }
    ]
@@ -3087,7 +3087,7 @@
    "price_history": [
     {
      "price": 2.0,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2853475"
     }
    ]
@@ -3150,7 +3150,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 30326,
+   "age_minutes": 30327,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3168,7 +3168,7 @@
    "price_history": [
     {
      "price": 3.69,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "mydealz:2853111"
     }
    ]
@@ -3228,7 +3228,7 @@
    "decimal_error": false,
    "family": "Ordinateur portable",
    "price_verified": false,
-   "age_minutes": 30452,
+   "age_minutes": 30453,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3288,7 +3288,7 @@
    "decimal_error": false,
    "family": "GPU",
    "price_verified": true,
-   "age_minutes": 30616,
+   "age_minutes": 30617,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3390,7 +3390,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 30759,
+   "age_minutes": 30760,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Heinz",
@@ -3400,7 +3400,7 @@
    "price_history": [
     {
      "price": 4.5,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "hotukdeals:5003417"
     }
    ]
@@ -3442,7 +3442,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 30818,
+   "age_minutes": 30819,
    "is_fresh": false,
    "active": false,
    "temperature": -38.27,
@@ -3505,7 +3505,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 31837,
+   "age_minutes": 31838,
    "is_fresh": false,
    "active": false,
    "temperature": 151.09,
@@ -3568,7 +3568,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 32381,
+   "age_minutes": 32382,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3710,7 +3710,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 33585,
+   "age_minutes": 33586,
    "is_fresh": false,
    "active": false,
    "temperature": 173.76,
@@ -3773,7 +3773,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 34650,
+   "age_minutes": 34651,
    "is_fresh": false,
    "active": false,
    "temperature": 64.2,
@@ -3927,7 +3927,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 37633,
+   "age_minutes": 37634,
    "is_fresh": false,
    "active": false,
    "merchant_name": "PlayStation Store",
@@ -3973,7 +3973,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 37698,
+   "age_minutes": 37699,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -4130,7 +4130,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 39301,
+   "age_minutes": 39302,
    "is_fresh": false,
    "active": false,
    "merchant_name": "PlayStation Store",
@@ -4327,7 +4327,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 39638,
+   "age_minutes": 39639,
    "is_fresh": false,
    "active": false,
    "merchant_name": "OBI",
@@ -4337,7 +4337,7 @@
    "price_history": [
     {
      "price": 32.99,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "preisjaeger:370244"
     }
    ]
@@ -4379,7 +4379,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 39668,
+   "age_minutes": 39669,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -4521,7 +4521,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 40311,
+   "age_minutes": 40312,
    "is_fresh": false,
    "active": false,
    "temperature": 142.79,
@@ -4602,7 +4602,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 42098,
+   "age_minutes": 42099,
    "is_fresh": false,
    "active": false,
    "merchant_name": "MediaMarkt",
@@ -4612,7 +4612,7 @@
    "price_history": [
     {
      "price": 0.01,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "dealabs:3425046"
     }
    ]
@@ -4654,7 +4654,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 42202,
+   "age_minutes": 42203,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -4857,7 +4857,7 @@
    "decimal_error": false,
    "family": "Ordinateur portable",
    "price_verified": false,
-   "age_minutes": 45394,
+   "age_minutes": 45395,
    "is_fresh": false,
    "active": false,
    "temperature": -5.32,
@@ -4948,7 +4948,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 47606,
+   "age_minutes": 47607,
    "is_fresh": false,
    "active": false,
    "merchant_name": "INTERSPAR",
@@ -4958,7 +4958,7 @@
    "price_history": [
     {
      "price": 0.1,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "preisjaeger:369926"
     }
    ]
@@ -5104,7 +5104,7 @@
    "price_history": [
     {
      "price": 2.29,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "preisjaeger:369903"
     }
    ]
@@ -5146,7 +5146,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 48988,
+   "age_minutes": 48989,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -5280,7 +5280,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 52226,
+   "age_minutes": 52227,
    "is_fresh": false,
    "active": false,
    "temperature": 66.19,
@@ -5343,7 +5343,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 52247,
+   "age_minutes": 52248,
    "is_fresh": false,
    "active": false,
    "temperature": 173.48,
@@ -5423,7 +5423,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 52608,
+   "age_minutes": 52609,
    "is_fresh": false,
    "active": false,
    "merchant_name": "McDonald's",
@@ -5433,7 +5433,7 @@
    "price_history": [
     {
      "price": 2.4,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "dealabs:3420363"
     }
    ]
@@ -5564,7 +5564,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 63852,
+   "age_minutes": 63853,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -5582,7 +5582,7 @@
    "price_history": [
     {
      "price": 3.0,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "preisjaeger:369172"
     }
    ]
@@ -5645,7 +5645,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 85789,
+   "age_minutes": 85790,
    "is_fresh": false,
    "active": false,
    "merchant_name": "alza",
@@ -5655,7 +5655,7 @@
    "price_history": [
     {
      "price": 40.9,
-     "at": "2026-11-02T20:11:03+00:00",
+     "at": "2026-11-02T20:13:04+00:00",
      "deal": "preisjaeger:368731"
     }
    ]
