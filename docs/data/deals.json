@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T15:20:27+00:00",
+ "updated": "2026-11-02T10:13:24+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -35,6 +35,42 @@
   }
  ],
  "deals": [
+  {
+   "id": "preisjaeger:371720",
+   "title": "Preisfehler GameChangerSocks -50% auf alles",
+   "link": "https://www.preisjaeger.at/deals/preisfehler-gamechangersocks-50-auf-alles-371720",
+   "merchant": null,
+   "marketplace": "Autre",
+   "price": 37.8,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Fashion & Accessories",
+   "image": "https://static.preisjaeger.at/threads/raw/XCGJt/371720_1/re/150x150/qt/55/371720_1.jpg",
+   "description": "-50 % auf alles vor allem auf das Golf Bundle mit einem 50 € Topgolf Gutschein dabei also im Prinzip das Materielle um Sonst ^^ So nebenbei die Socken sind wirklich gut und halten was sie versprechen aber die regulären Preise sind gestört",
+   "source": "preisjaeger",
+   "country": "AT",
+   "published": "2026-11-02T09:50:18+00:00",
+   "first_seen": "2026-11-02T10:13:24+00:00"
+  },
+  {
+   "id": "hotukdeals:5020142",
+   "title": "Hogwarts Legacy Nintendo Switch Game",
+   "link": "https://www.hotukdeals.com/deals/hogwarts-legacy-nintendo-switch-5020142",
+   "merchant": "Monster-Shop",
+   "marketplace": "Autre",
+   "price": null,
+   "original_price": null,
+   "discount": null,
+   "currency": "GBP",
+   "category": "Gaming",
+   "image": "https://images.hotukdeals.com/threads/raw/B5WMB/5020142_1/re/150x150/qt/55/5020142_1.jpg",
+   "description": "Clearly a glitch but it would be funny if it works. Hogwarts Legacy is an open-world action RPG set in the world introduced in the Harry Potter books. Explore and discover magical beasts, customize your character and craft potions, master spell casting, upgrade talents and…",
+   "source": "hotukdeals",
+   "country": "UK",
+   "published": "2026-11-02T06:18:36+00:00",
+   "first_seen": "2026-11-02T10:13:24+00:00"
+  },
   {
    "id": "preisjaeger:371685",
    "title": "(Preisfehler?) home24 Kommode aus massiver Wildeiche (80x89x40cm, 4 Schubladen)",
