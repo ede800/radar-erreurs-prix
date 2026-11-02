@@ -2,6 +2,6 @@ __pycache__/
 *.pyc
 .venv/
 .env
-data/
+/data/
 .pytest_cache/
 docs/data/*.tmp
