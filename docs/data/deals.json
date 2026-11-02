@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-02T20:12:03+00:00",
+ "updated": "2026-11-02T20:14:06+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -86,7 +86,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 165,
+   "age_minutes": 167,
    "is_fresh": false,
    "active": true
   },
@@ -142,7 +142,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": false,
-   "age_minutes": 833,
+   "age_minutes": 835,
    "is_fresh": false,
    "active": false
   },
@@ -197,7 +197,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 1767,
+   "age_minutes": 1769,
    "is_fresh": false,
    "active": false
   },
@@ -252,7 +252,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 1876,
+   "age_minutes": 1879,
    "is_fresh": false,
    "active": false
   },
@@ -304,7 +304,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 5950,
+   "age_minutes": 5952,
    "is_fresh": false,
    "active": false
   },
@@ -359,7 +359,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 6277,
+   "age_minutes": 6279,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -424,7 +424,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 6285,
+   "age_minutes": 6287,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -487,7 +487,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 7468,
+   "age_minutes": 7471,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -554,7 +554,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 7551,
+   "age_minutes": 7554,
    "is_fresh": false,
    "active": false
   },
@@ -611,7 +611,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 7570,
+   "age_minutes": 7572,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -675,7 +675,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 7929,
+   "age_minutes": 7931,
    "is_fresh": false,
    "active": false
   },
@@ -731,7 +731,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 7934,
+   "age_minutes": 7936,
    "is_fresh": false,
    "active": false
   },
@@ -786,7 +786,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 9414,
+   "age_minutes": 9416,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -849,7 +849,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 10205,
+   "age_minutes": 10207,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -912,7 +912,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 11453,
+   "age_minutes": 11455,
    "is_fresh": false,
    "active": false
   },
@@ -969,7 +969,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 11617,
+   "age_minutes": 11619,
    "is_fresh": false,
    "active": true
   },
@@ -1021,7 +1021,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 12737,
+   "age_minutes": 12739,
    "is_fresh": false,
    "active": false
   },
@@ -1075,7 +1075,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 13572,
+   "age_minutes": 13574,
    "is_fresh": false,
    "active": true
   },
@@ -1127,7 +1127,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 14411,
+   "age_minutes": 14413,
    "is_fresh": false,
    "active": false
   },
@@ -1192,7 +1192,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 14744,
+   "age_minutes": 14746,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -1241,7 +1241,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 15604,
+   "age_minutes": 15607,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -1304,7 +1304,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 15712,
+   "age_minutes": 15714,
    "is_fresh": false,
    "active": false
   },
@@ -1362,7 +1362,7 @@
    "decimal_error": false,
    "family": "Aspirateur",
    "price_verified": true,
-   "age_minutes": 15814,
+   "age_minutes": 15816,
    "is_fresh": false,
    "active": false
   },
@@ -1417,7 +1417,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 16246,
+   "age_minutes": 16248,
    "is_fresh": false,
    "active": false
   },
@@ -1471,7 +1471,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 16295,
+   "age_minutes": 16297,
    "is_fresh": false,
    "active": false
   },
@@ -1512,7 +1512,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 17700,
+   "age_minutes": 17702,
    "is_fresh": false,
    "active": true
   },
@@ -1566,7 +1566,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 17920,
+   "age_minutes": 17922,
    "is_fresh": false,
    "active": false
   },
@@ -1623,7 +1623,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 19258,
+   "age_minutes": 19260,
    "is_fresh": false,
    "active": false
   },
@@ -1678,7 +1678,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 19369,
+   "age_minutes": 19371,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -1740,7 +1740,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 20748,
+   "age_minutes": 20750,
    "is_fresh": false,
    "active": false
   },
@@ -1795,7 +1795,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 20922,
+   "age_minutes": 20924,
    "is_fresh": false,
    "active": false
   },
@@ -1848,7 +1848,7 @@
    "decimal_error": false,
    "family": "GPU",
    "price_verified": false,
-   "age_minutes": 20953,
+   "age_minutes": 20955,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -1907,7 +1907,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 22015,
+   "age_minutes": 22017,
    "is_fresh": false,
    "active": false
   },
@@ -1958,7 +1958,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 22316,
+   "age_minutes": 22318,
    "is_fresh": false,
    "active": false
   },
@@ -2010,7 +2010,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 23793,
+   "age_minutes": 23795,
    "is_fresh": false,
    "active": true
   },
@@ -2068,7 +2068,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 26559,
+   "age_minutes": 26561,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -2131,7 +2131,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 27986,
+   "age_minutes": 27988,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2200,7 +2200,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 28040,
+   "age_minutes": 28042,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2268,7 +2268,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 29050,
+   "age_minutes": 29052,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2331,7 +2331,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 30297,
+   "age_minutes": 30299,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2392,7 +2392,7 @@
    "decimal_error": false,
    "family": "Ordinateur portable",
    "price_verified": false,
-   "age_minutes": 30423,
+   "age_minutes": 30425,
    "is_fresh": false,
    "active": false
   },
@@ -2438,7 +2438,7 @@
    "decimal_error": false,
    "family": "GPU",
    "price_verified": true,
-   "age_minutes": 30587,
+   "age_minutes": 30589,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2505,7 +2505,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 30730,
+   "age_minutes": 30732,
    "is_fresh": false,
    "active": false
   },
@@ -2546,7 +2546,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 30789,
+   "age_minutes": 30791,
    "is_fresh": false,
    "active": false,
    "temperature": -38.27,
@@ -2597,7 +2597,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 31807,
+   "age_minutes": 31810,
    "is_fresh": false,
    "active": false,
    "temperature": 151.09,
@@ -2648,7 +2648,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 32352,
+   "age_minutes": 32354,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2707,7 +2707,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 32361,
+   "age_minutes": 32363,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2766,7 +2766,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 33556,
+   "age_minutes": 33558,
    "is_fresh": false,
    "active": false,
    "temperature": 173.76,
@@ -2817,7 +2817,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 34621,
+   "age_minutes": 34623,
    "is_fresh": false,
    "active": false,
    "temperature": 64.2,
@@ -2865,7 +2865,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 36501,
+   "age_minutes": 36503,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2940,7 +2940,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 37604,
+   "age_minutes": 37606,
    "is_fresh": false,
    "active": false
   },
@@ -2981,7 +2981,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 37669,
+   "age_minutes": 37671,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3040,7 +3040,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 38985,
+   "age_minutes": 38987,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3107,7 +3107,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 39272,
+   "age_minutes": 39274,
    "is_fresh": false,
    "active": false
   },
@@ -3165,7 +3165,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": false,
-   "age_minutes": 39289,
+   "age_minutes": 39291,
    "is_fresh": false,
    "active": false
   },
@@ -3206,7 +3206,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": false,
-   "age_minutes": 39295,
+   "age_minutes": 39297,
    "is_fresh": false,
    "active": false,
    "temperature": 4402.48,
@@ -3268,7 +3268,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 39609,
+   "age_minutes": 39611,
    "is_fresh": false,
    "active": false
   },
@@ -3309,7 +3309,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 39639,
+   "age_minutes": 39641,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3368,7 +3368,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 39709,
+   "age_minutes": 39711,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3427,7 +3427,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 40282,
+   "age_minutes": 40284,
    "is_fresh": false,
    "active": false,
    "temperature": 142.79,
@@ -3489,7 +3489,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 42069,
+   "age_minutes": 42071,
    "is_fresh": false,
    "active": false
   },
@@ -3530,7 +3530,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 42172,
+   "age_minutes": 42175,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3589,7 +3589,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 43675,
+   "age_minutes": 43677,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3648,7 +3648,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 43800,
+   "age_minutes": 43802,
    "is_fresh": false,
    "active": false,
    "temperature": 630.51,
@@ -3697,7 +3697,7 @@
    "decimal_error": false,
    "family": "Ordinateur portable",
    "price_verified": false,
-   "age_minutes": 45365,
+   "age_minutes": 45367,
    "is_fresh": false,
    "active": false,
    "temperature": -5.32,
@@ -3763,7 +3763,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 47577,
+   "age_minutes": 47579,
    "is_fresh": false,
    "active": false
   },
@@ -3804,7 +3804,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 47788,
+   "age_minutes": 47790,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3879,7 +3879,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 48063,
+   "age_minutes": 48065,
    "is_fresh": false,
    "active": false
   },
@@ -3920,7 +3920,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 48959,
+   "age_minutes": 48961,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3979,7 +3979,7 @@
    "decimal_error": false,
    "family": "Smartphone",
    "price_verified": true,
-   "age_minutes": 51929,
+   "age_minutes": 51931,
    "is_fresh": false,
    "active": false,
    "temperature": 156.38,
@@ -4030,7 +4030,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 52197,
+   "age_minutes": 52199,
    "is_fresh": false,
    "active": false,
    "temperature": 66.19,
@@ -4081,7 +4081,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 52218,
+   "age_minutes": 52220,
    "is_fresh": false,
    "active": false,
    "temperature": 173.48,
@@ -4142,7 +4142,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 52579,
+   "age_minutes": 52581,
    "is_fresh": false,
    "active": false
   },
@@ -4196,7 +4196,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 56882,
+   "age_minutes": 56884,
    "is_fresh": false,
    "active": false
   },
@@ -4253,7 +4253,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 63823,
+   "age_minutes": 63825,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -4316,7 +4316,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 85760,
+   "age_minutes": 85762,
    "is_fresh": false,
    "active": false
   }
