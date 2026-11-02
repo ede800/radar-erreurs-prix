@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-02T20:25:49+00:00",
+ "updated": "2026-11-02T20:41:33+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -37,6 +37,88 @@
  ],
  "deals": [
   {
+   "id": "dealabs:3444780",
+   "title": "Mortal Kombat: Legacy Kollection sur Nintendo Switch 2",
+   "link": "https://www.dealabs.com/bons-plans/mortal-kombat-legacy-kollection-sur-nintendo-switch-2-3444780",
+   "merchant": "JoyBuy",
+   "marketplace": "Autre",
+   "price": 36.99,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Consoles & Jeux vidéo",
+   "image": "https://static-pepper.dealabs.com/threads/raw/326p6/3444780_1/re/150x150/qt/55/3444780_1.jpg",
+   "description": "• Revivez la saga épique qui a défini un genre avec Mortal Kombat : Legacy Kollection Deluxe Edition sur Nintendo Switch 2. Cette compilation définitive, conçue par Digital Eclipse, réunit les origines légendaires de Mortal Kombat, incluant les emblématiques classiques arcade…",
+   "source": "dealabs",
+   "country": "FR",
+   "published": "2026-11-02T20:36:21+00:00",
+   "stream": "fresh",
+   "glitch_keyword": false,
+   "merchant_links": [],
+   "asin": null,
+   "ean": null,
+   "first_seen": "2026-11-02T20:38:01+00:00",
+   "temperature": 6.4,
+   "next_best_price": 79.99,
+   "expired": false,
+   "link_host": "m.joybuy.fr",
+   "enriched_at": "2026-11-02T20:38:01+00:00",
+   "market_median": 79.99,
+   "market_floor": 79.99,
+   "market_sources": [
+    "pepper"
+   ],
+   "history_low": null,
+   "score": 35,
+   "level": "hot",
+   "reasons": [
+    "📉 -54% sous le prix marché",
+    "Marque reconnue (Nintendo)"
+   ],
+   "rejected": null,
+   "brand": "Nintendo",
+   "seller": "unknown",
+   "market_price": 79.99,
+   "market_source": "pepper",
+   "baseline_price": 79.99,
+   "score_breakdown": [
+    {
+     "label": "Remise de 54 % vs prix marché",
+     "points": 16.0
+    },
+    {
+     "label": "Marque reconnue (Nintendo)",
+     "points": 15
+    },
+    {
+     "label": "Votes communautaires (6°, 13°/h)",
+     "points": 4
+    }
+   ],
+   "catalog_name": null,
+   "real_discount": 54,
+   "savings": 43.0,
+   "resale_margin": 31.0,
+   "certified": false,
+   "decimal_error": false,
+   "family": "Console",
+   "price_verified": true,
+   "age_minutes": 5,
+   "is_fresh": true,
+   "active": true,
+   "merchant_name": "JoyBuy",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 36.99,
+     "at": "2026-11-02T20:38:01+00:00",
+     "deal": "dealabs:3444780"
+    }
+   ]
+  },
+  {
    "id": "mydealz:2863659",
    "title": "Kaufland Metzingen- Michelin Reifenpannenspray / Mad Docs Insektenentferner | Auslistung / Preisfehler LOKAL",
    "link": "https://www.mydealz.de/deals/kaufland-michelin-reifenpannenspray-mad-dock-insektenentferner-auslistung-2863659",
@@ -58,10 +140,10 @@
    "asin": null,
    "ean": null,
    "first_seen": "2026-11-02T20:11:03+00:00",
-   "temperature": 618.29,
+   "temperature": 641.07,
    "next_best_price": 9.99,
    "expired": false,
-   "enriched_at": "2026-11-02T20:11:03+00:00",
+   "enriched_at": "2026-11-02T20:27:17+00:00",
    "market_median": 9.99,
    "market_floor": 9.99,
    "market_sources": [
@@ -78,6 +160,13 @@
    "seller": "marketplace",
    "market_price": 9.99,
    "market_source": "pepper",
+   "baseline_price": 9.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 100,
    "savings": 9.98,
@@ -86,9 +175,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 178,
+   "age_minutes": 194,
    "is_fresh": false,
-   "active": true
+   "active": true,
+   "merchant_name": "Kaufland",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 0.01,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2863659"
+    }
+   ]
   },
   {
    "id": "hotukdeals:5020142",
@@ -116,24 +216,30 @@
    "next_best_price": 0.01,
    "expired": true,
    "link_host": "monster-shop.co.uk",
-   "enriched_at": "2026-11-02T20:11:03+00:00",
+   "enriched_at": "2026-11-02T20:27:17+00:00",
    "market_median": 0.01,
    "market_floor": 0.01,
    "market_sources": [
     "pepper"
    ],
    "history_low": null,
-   "score": 20,
-   "level": "normal",
+   "score": 0,
+   "level": "rejected",
    "reasons": [
-    "Marque reconnue (Nintendo)",
-    "[EXPIRÉ]"
+    "Prix absent ou nul"
    ],
-   "rejected": null,
+   "rejected": "Prix absent ou nul",
    "brand": "Nintendo",
    "seller": "unknown",
    "market_price": null,
    "market_source": "pepper",
+   "baseline_price": 0.01,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Prix absent ou nul",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -142,9 +248,14 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": false,
-   "age_minutes": 847,
+   "age_minutes": 862,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "Monster-Shop",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "preisjaeger:371685",
@@ -172,7 +283,7 @@
    "next_best_price": 529.0,
    "expired": true,
    "link_host": "www.xxxlutz.at",
-   "enriched_at": "2026-11-02T20:11:03+00:00",
+   "enriched_at": "2026-11-02T20:27:17+00:00",
    "market_median": 529.0,
    "market_floor": 529.0,
    "market_sources": [
@@ -189,6 +300,13 @@
    "seller": "unknown",
    "market_price": 529.0,
    "market_source": "pepper",
+   "baseline_price": 529.0,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 81,
    "savings": 430.0,
@@ -197,9 +315,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 1781,
+   "age_minutes": 1796,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "XXXLutz",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 99.0,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "preisjaeger:371685"
+    }
+   ]
   },
   {
    "id": "mydealz:2862776",
@@ -227,7 +356,7 @@
    "next_best_price": 7.08,
    "expired": true,
    "link_host": "www.medpex.de",
-   "enriched_at": "2026-11-02T20:11:03+00:00",
+   "enriched_at": "2026-11-02T20:27:17+00:00",
    "market_median": 7.08,
    "market_floor": 7.08,
    "market_sources": [
@@ -244,6 +373,13 @@
    "seller": "unknown",
    "market_price": 7.08,
    "market_source": "pepper",
+   "baseline_price": 7.08,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 49,
    "savings": 3.47,
@@ -252,9 +388,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 1890,
+   "age_minutes": 1906,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "medpex",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 3.61,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2862776"
+    }
+   ]
   },
   {
    "id": "mydealz:2861305",
@@ -296,6 +443,13 @@
    "seller": "unknown",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -304,9 +458,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 5964,
+   "age_minutes": 5979,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": null,
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 15.0,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2861305"
+    }
+   ]
   },
   {
    "id": "mydealz:2861134",
@@ -351,6 +516,13 @@
    "seller": "third_party",
    "market_price": 199.99,
    "market_source": "pepper",
+   "baseline_price": 199.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 92,
    "savings": 184.04,
@@ -359,7 +531,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 6291,
+   "age_minutes": 6307,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -369,7 +541,18 @@
     "it": "https://www.amazon.it/s?k=oder+Ausverkauf%3A+Faltpavillon+%26+Partyzelt+f%C3%BCr+Camping%2C+Outdoor%2C",
     "uk": "https://www.amazon.co.uk/s?k=oder+Ausverkauf%3A+Faltpavillon+%26+Partyzelt+f%C3%BCr+Camping%2C+Outdoor%2C"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 15.95,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2861134"
+    }
+   ]
   },
   {
    "id": "mydealz:2861129",
@@ -416,6 +599,13 @@
    "seller": "marketplace",
    "market_price": 96.99,
    "market_source": "pepper",
+   "baseline_price": 96.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 75,
    "savings": 73.0,
@@ -424,7 +614,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 6299,
+   "age_minutes": 6315,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -434,7 +624,18 @@
     "it": "https://www.amazon.it/s?k=M%C3%B6glicher+Lumaland+Outdoor+Pop-Up+Pavillon+2%2C5+x+2%2C5",
     "uk": "https://www.amazon.co.uk/s?k=M%C3%B6glicher+Lumaland+Outdoor+Pop-Up+Pavillon+2%2C5+x+2%2C5"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 23.99,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2861129"
+    }
+   ]
   },
   {
    "id": "mydealz:2860736",
@@ -479,6 +680,13 @@
    "seller": "marketplace",
    "market_price": 22.99,
    "market_source": "pepper",
+   "baseline_price": 22.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 86,
    "savings": 19.74,
@@ -487,7 +695,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 7482,
+   "age_minutes": 7498,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -497,7 +705,18 @@
     "it": "https://www.amazon.it/s?k=frei+%C3%B6l+ANTI+AGE+HYALURON+LIFT+All-In-One+Konzentrat%2C",
     "uk": "https://www.amazon.co.uk/s?k=frei+%C3%B6l+ANTI+AGE+HYALURON+LIFT+All-In-One+Konzentrat%2C"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 3.25,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2860736"
+    }
+   ]
   },
   {
    "id": "mydealz:2860686",
@@ -546,6 +765,13 @@
    "seller": "unknown",
    "market_price": 9999.0,
    "market_source": "pepper",
+   "baseline_price": 9999.0,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 44,
    "savings": 4444.0,
@@ -554,9 +780,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 7565,
+   "age_minutes": 7581,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "OBI",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 5555.0,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2860686"
+    }
+   ]
   },
   {
    "id": "mydealz:2860663",
@@ -603,6 +840,13 @@
    "seller": "unknown",
    "market_price": 54.0,
    "market_source": "pepper",
+   "baseline_price": 54.0,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 93,
    "savings": 50.01,
@@ -611,7 +855,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 7584,
+   "age_minutes": 7599,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -621,7 +865,18 @@
     "it": "https://www.amazon.it/dp/B0H6PW14T3",
     "uk": "https://www.amazon.co.uk/dp/B0H6PW14T3"
    },
-   "amazon_eu_kind": "product"
+   "amazon_eu_kind": "product",
+   "merchant_name": "Fanfactory",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 3.99,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2860663"
+    }
+   ]
   },
   {
    "id": "mydealz:2860405",
@@ -656,17 +911,23 @@
    "market_floor": null,
    "market_sources": [],
    "history_low": null,
-   "score": 28,
-   "level": "normal",
+   "score": 0,
+   "level": "rejected",
    "reasons": [
-    "🏪 Enseigne réputée",
-    "[EXPIRÉ]"
+    "Abonnement / forfait / service"
    ],
-   "rejected": null,
+   "rejected": "Abonnement / forfait / service",
    "brand": null,
    "seller": "retailer",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Abonnement / forfait / service",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -675,9 +936,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 7943,
+   "age_minutes": 7959,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "MediaMarkt",
+   "merchant_country": "DE",
+   "merchant_kind": "retailer",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 759.75,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2860405"
+    }
+   ]
   },
   {
    "id": "mydealz:2860401",
@@ -712,17 +984,23 @@
    "market_floor": null,
    "market_sources": [],
    "history_low": null,
-   "score": 24,
-   "level": "normal",
+   "score": 0,
+   "level": "rejected",
    "reasons": [
-    "🏪 Enseigne réputée",
-    "[EXPIRÉ]"
+    "Abonnement / forfait / service"
    ],
-   "rejected": null,
+   "rejected": "Abonnement / forfait / service",
    "brand": null,
    "seller": "retailer",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Abonnement / forfait / service",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -731,9 +1009,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 7948,
+   "age_minutes": 7964,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "MediaMarkt",
+   "merchant_country": "DE",
+   "merchant_kind": "retailer",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 639.75,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2860401"
+    }
+   ]
   },
   {
    "id": "mydealz:2859799",
@@ -778,6 +1067,13 @@
    "seller": "marketplace",
    "market_price": 35.93,
    "market_source": "pepper",
+   "baseline_price": 35.93,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 87,
    "savings": 31.34,
@@ -786,7 +1082,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 9428,
+   "age_minutes": 9444,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -796,7 +1092,18 @@
     "it": "https://www.amazon.it/s?k=10+St%C3%BCck+NGK+5422+Z%C3%BCndkerze",
     "uk": "https://www.amazon.co.uk/s?k=10+St%C3%BCck+NGK+5422+Z%C3%BCndkerze"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 4.59,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2859799"
+    }
+   ]
   },
   {
    "id": "mydealz:2859633",
@@ -841,6 +1148,13 @@
    "seller": "marketplace",
    "market_price": 110.0,
    "market_source": "pepper",
+   "baseline_price": 110.0,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 81,
    "savings": 89.11,
@@ -849,7 +1163,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 10219,
+   "age_minutes": 10235,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -859,7 +1173,18 @@
     "it": "https://www.amazon.it/s?k=Koffer+STRATIC+LIGHT%2B-Serie+57cm",
     "uk": "https://www.amazon.co.uk/s?k=Koffer+STRATIC+LIGHT%2B-Serie+57cm"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "merchant_name": "Amazon.fr",
+   "merchant_country": "FR",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 20.89,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2859633"
+    }
+   ]
   },
   {
    "id": "mydealz:2859154",
@@ -904,6 +1229,13 @@
    "seller": "unknown",
    "market_price": 14.48,
    "market_source": "pepper",
+   "baseline_price": 14.48,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 86,
    "savings": 12.48,
@@ -912,9 +1244,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 11467,
+   "age_minutes": 11483,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "A.T.U",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 2.0,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2859154"
+    }
+   ]
   },
   {
    "id": "mydealz:2859084",
@@ -961,6 +1304,13 @@
    "seller": "unknown",
    "market_price": 47.84,
    "market_source": "pepper",
+   "baseline_price": 47.84,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Clé / code numérique",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 50,
    "savings": 23.92,
@@ -969,9 +1319,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 11631,
+   "age_minutes": 11646,
    "is_fresh": false,
-   "active": true
+   "active": true,
+   "merchant_name": null,
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 23.92,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2859084"
+    }
+   ]
   },
   {
    "id": "mydealz:2858705",
@@ -1006,13 +1367,20 @@
    "score": 0,
    "level": "rejected",
    "reasons": [
-    "Clé / code numérique"
+    "Prix absent ou nul"
    ],
-   "rejected": "Clé / code numérique",
+   "rejected": "Prix absent ou nul",
    "brand": "Bandai",
    "seller": "unknown",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Prix absent ou nul",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -1021,9 +1389,14 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 12751,
+   "age_minutes": 12767,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "Bandai Namco",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2858489",
@@ -1067,6 +1440,13 @@
    "seller": "marketplace",
    "market_price": 9.99,
    "market_source": "pepper",
+   "baseline_price": 9.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 100,
    "savings": 9.98,
@@ -1075,9 +1455,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 13586,
+   "age_minutes": 13601,
    "is_fresh": false,
-   "active": true
+   "active": true,
+   "merchant_name": "Kaufland",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 0.01,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2858489"
+    }
+   ]
   },
   {
    "id": "mydealz:2858293",
@@ -1112,13 +1503,20 @@
    "score": 0,
    "level": "rejected",
    "reasons": [
-    "Clé / code numérique"
+    "Prix absent ou nul"
    ],
-   "rejected": "Clé / code numérique",
+   "rejected": "Prix absent ou nul",
    "brand": null,
    "seller": "unknown",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Prix absent ou nul",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -1127,9 +1525,14 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 14425,
+   "age_minutes": 14440,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "PAYBACK",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2858160",
@@ -1184,6 +1587,29 @@
    "seller": "marketplace",
    "market_price": 295.53,
    "market_source": "pepper",
+   "baseline_price": 295.53,
+   "score_breakdown": [
+    {
+     "label": "Remise de 52 % vs prix marché",
+     "points": 14.7
+    },
+    {
+     "label": "Marketplace (vendeur non précisé)",
+     "points": 3
+    },
+    {
+     "label": "Marque reconnue (Electrolux)",
+     "points": 15
+    },
+    {
+     "label": "Signalée comme erreur de prix",
+     "points": 5
+    },
+    {
+     "label": "Votes communautaires (426°, 2°/h)",
+     "points": 8
+    }
+   ],
    "catalog_name": null,
    "real_discount": 52,
    "savings": 153.67,
@@ -1192,7 +1618,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 14758,
+   "age_minutes": 14774,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -1202,7 +1628,18 @@
     "it": "https://www.amazon.it/dp/B0BHF1XW7K",
     "uk": "https://www.amazon.co.uk/dp/B0BHF1XW7K"
    },
-   "amazon_eu_kind": "product"
+   "amazon_eu_kind": "product",
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 141.86,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2858160"
+    }
+   ]
   },
   {
    "id": "mydealz:2857815",
@@ -1241,7 +1678,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 15618,
+   "age_minutes": 15634,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -1251,7 +1688,19 @@
     "it": "https://www.amazon.it/s?k=Rotes+Weihnachts-Samtkleid+Langarm+Gr.+M",
     "uk": "https://www.amazon.co.uk/s?k=Rotes+Weihnachts-Samtkleid+Langarm+Gr.+M"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.fr",
+   "merchant_country": "FR",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "mydealz:2857800",
@@ -1296,6 +1745,13 @@
    "seller": "unknown",
    "market_price": 599.0,
    "market_source": "pepper",
+   "baseline_price": 599.0,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 73,
    "savings": 439.11,
@@ -1304,9 +1760,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 15726,
+   "age_minutes": 15742,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "XXXLutz",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 159.89,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2857800"
+    }
+   ]
   },
   {
    "id": "dealabs:3436986",
@@ -1354,6 +1821,29 @@
    "seller": "retailer",
    "market_price": 449.0,
    "market_source": "pepper",
+   "baseline_price": 449.0,
+   "score_breakdown": [
+    {
+     "label": "Remise de 38 % vs prix marché",
+     "points": 5.3
+    },
+    {
+     "label": "Enseigne réputée",
+     "points": 7
+    },
+    {
+     "label": "Marque reconnue (Dyson)",
+     "points": 15
+    },
+    {
+     "label": "Signalée comme erreur de prix",
+     "points": 5
+    },
+    {
+     "label": "Votes communautaires (394°, 1°/h)",
+     "points": 8
+    }
+   ],
    "catalog_name": null,
    "real_discount": 38,
    "savings": 170.62,
@@ -1362,9 +1852,20 @@
    "decimal_error": false,
    "family": "Aspirateur",
    "price_verified": true,
-   "age_minutes": 15828,
+   "age_minutes": 15843,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "Fnac",
+   "merchant_country": "FR",
+   "merchant_kind": "retailer",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 278.38,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "dealabs:3436986"
+    }
+   ]
   },
   {
    "id": "preisjaeger:371072",
@@ -1409,6 +1910,13 @@
    "seller": "unknown",
    "market_price": 99.99,
    "market_source": "pepper",
+   "baseline_price": 99.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 90,
    "savings": 90.0,
@@ -1417,9 +1925,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 16260,
+   "age_minutes": 16276,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "XXXLutz",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 9.99,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "preisjaeger:371072"
+    }
+   ]
   },
   {
    "id": "mydealz:2857560",
@@ -1463,6 +1982,13 @@
    "seller": "unknown",
    "market_price": 7.5,
    "market_source": "pepper",
+   "baseline_price": 7.5,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 92,
    "savings": 6.91,
@@ -1471,9 +1997,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 16308,
+   "age_minutes": 16324,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "EDEKA",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 0.59,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2857560"
+    }
+   ]
   },
   {
    "id": "mydealz:2857120",
@@ -1512,9 +2049,21 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 17714,
+   "age_minutes": 17729,
    "is_fresh": false,
-   "active": true
+   "active": true,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Elektromax24",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "hotukdeals:5010217",
@@ -1557,18 +2106,52 @@
    "brand": "SanDisk",
    "seller": "retailer",
    "market_price": null,
-   "market_source": null,
-   "catalog_name": null,
+   "market_source": "catalog",
+   "baseline_price": 30.45,
+   "score_breakdown": [
+    {
+     "label": "Enseigne réputée",
+     "points": 7
+    },
+    {
+     "label": "Marque reconnue (SanDisk)",
+     "points": 15
+    },
+    {
+     "label": "Signalée comme erreur de prix",
+     "points": 5
+    }
+   ],
+   "catalog_name": "Stockage 512 Go",
    "real_discount": null,
    "savings": null,
    "resale_margin": null,
    "certified": false,
    "decimal_error": false,
-   "family": null,
+   "family": "Stockage",
    "price_verified": false,
-   "age_minutes": 17934,
+   "age_minutes": 17950,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "amazon_eu": {
+    "fr": "https://www.amazon.fr/s?k=Stockage+512+Go",
+    "de": "https://www.amazon.de/s?k=Stockage+512+Go",
+    "es": "https://www.amazon.es/s?k=Stockage+512+Go",
+    "it": "https://www.amazon.it/s?k=Stockage+512+Go",
+    "uk": "https://www.amazon.co.uk/s?k=Stockage+512+Go"
+   },
+   "amazon_eu_kind": "search",
+   "merchant_name": "Currys",
+   "merchant_country": "UK",
+   "merchant_kind": "retailer",
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 49.99,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "hotukdeals:5010217"
+    }
+   ]
   },
   {
    "id": "mydealz:2856598",
@@ -1615,6 +2198,13 @@
    "seller": "third_party",
    "market_price": 75.99,
    "market_source": "pepper",
+   "baseline_price": 75.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 79,
    "savings": 60.0,
@@ -1623,9 +2213,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 19272,
+   "age_minutes": 19288,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "XXXLutz",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 15.99,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2856598"
+    }
+   ]
   },
   {
    "id": "mydealz:2856536",
@@ -1670,6 +2271,13 @@
    "seller": "marketplace",
    "market_price": 115.55,
    "market_source": "pepper",
+   "baseline_price": 115.55,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 89,
    "savings": 102.6,
@@ -1678,7 +2286,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 19383,
+   "age_minutes": 19399,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -1688,7 +2296,18 @@
     "it": "https://www.amazon.it/s?k=Mobiclinic+Neptuno+Faltbarer+Transitrollstuhl",
     "uk": "https://www.amazon.co.uk/s?k=Mobiclinic+Neptuno+Faltbarer+Transitrollstuhl"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 12.95,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2856536"
+    }
+   ]
   },
   {
    "id": "hotukdeals:5008639",
@@ -1732,6 +2351,13 @@
    "seller": "unknown",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -1740,9 +2366,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 20762,
+   "age_minutes": 20778,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "Boots",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 29.62,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "hotukdeals:5008639"
+    }
+   ]
   },
   {
    "id": "mydealz:2855966",
@@ -1787,6 +2424,13 @@
    "seller": "unknown",
    "market_price": 4284.0,
    "market_source": "pepper",
+   "baseline_price": 4284.0,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 66,
    "savings": 2834.0,
@@ -1795,9 +2439,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 20936,
+   "age_minutes": 20951,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "LeasingMarkt",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 1450.0,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2855966"
+    }
+   ]
   },
   {
    "id": "dealabs:3434743",
@@ -1839,26 +2494,56 @@
    "brand": "Alienware",
    "seller": "marketplace",
    "market_price": null,
-   "market_source": null,
-   "catalog_name": null,
+   "market_source": "catalog",
+   "baseline_price": 1600.0,
+   "score_breakdown": [
+    {
+     "label": "Marketplace (vendeur non précisé)",
+     "points": 3
+    },
+    {
+     "label": "Marque reconnue (Alienware)",
+     "points": 15
+    },
+    {
+     "label": "Signalée comme erreur de prix",
+     "points": 5
+    },
+    {
+     "label": "Votes communautaires (432°, 1°/h)",
+     "points": 8
+    }
+   ],
+   "catalog_name": "PC fixe RTX 5080",
    "real_discount": null,
    "savings": null,
    "resale_margin": null,
    "certified": false,
    "decimal_error": false,
-   "family": "GPU",
+   "family": "PC fixe",
    "price_verified": false,
-   "age_minutes": 20967,
+   "age_minutes": 20983,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
-    "fr": "https://www.amazon.fr/s?k=PC+de+bureau+Alienware+Aurora+R16+-+i9",
-    "de": "https://www.amazon.de/s?k=PC+de+bureau+Alienware+Aurora+R16+-+i9",
-    "es": "https://www.amazon.es/s?k=PC+de+bureau+Alienware+Aurora+R16+-+i9",
-    "it": "https://www.amazon.it/s?k=PC+de+bureau+Alienware+Aurora+R16+-+i9",
-    "uk": "https://www.amazon.co.uk/s?k=PC+de+bureau+Alienware+Aurora+R16+-+i9"
+    "fr": "https://www.amazon.fr/s?k=PC+fixe+RTX+5080",
+    "de": "https://www.amazon.de/s?k=PC+fixe+RTX+5080",
+    "es": "https://www.amazon.es/s?k=PC+fixe+RTX+5080",
+    "it": "https://www.amazon.it/s?k=PC+fixe+RTX+5080",
+    "uk": "https://www.amazon.co.uk/s?k=PC+fixe+RTX+5080"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "merchant_name": "Amazon.fr",
+   "merchant_country": "FR",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 1704.3,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "dealabs:3434743"
+    }
+   ]
   },
   {
    "id": "mydealz:2855652",
@@ -1892,13 +2577,20 @@
    "score": 0,
    "level": "rejected",
    "reasons": [
-    "Ni marque reconnue ni vendeur réputé"
+    "Prix absent ou nul"
    ],
-   "rejected": "Ni marque reconnue ni vendeur réputé",
+   "rejected": "Prix absent ou nul",
    "brand": null,
    "seller": "marketplace",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Prix absent ou nul",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -1907,9 +2599,14 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 22028,
+   "age_minutes": 22044,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "Kaufland",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "mydealz:2855553",
@@ -1950,6 +2647,13 @@
    "seller": "unknown",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -1958,9 +2662,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 22329,
+   "age_minutes": 22345,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "HEM Tankstellen",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 1.45,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2855553"
+    }
+   ]
   },
   {
    "id": "hotukdeals:5007336",
@@ -2002,6 +2717,21 @@
    "seller": "retailer",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Enseigne réputée",
+     "points": 7
+    },
+    {
+     "label": "Signalée comme erreur de prix",
+     "points": 5
+    },
+    {
+     "label": "Votes communautaires (227°, 1°/h)",
+     "points": 8
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -2010,9 +2740,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 23807,
+   "age_minutes": 23823,
    "is_fresh": false,
-   "active": true
+   "active": true,
+   "merchant_name": "ASDA Groceries",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 2.44,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "hotukdeals:5007336"
+    }
+   ]
   },
   {
    "id": "preisjaeger:370737",
@@ -2049,17 +2790,23 @@
     "pepper"
    ],
    "history_low": null,
-   "score": 65,
-   "level": "hot",
+   "score": 0,
+   "level": "rejected",
    "reasons": [
-    "📉 -81% sous le prix marché",
-    "Marque reconnue (Beats)"
+    "Pièce détachée / consommable"
    ],
-   "rejected": null,
+   "rejected": "Pièce détachée / consommable",
    "brand": "Beats",
    "seller": "marketplace",
    "market_price": 63.95,
    "market_source": "pepper",
+   "baseline_price": 63.95,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Pièce détachée / consommable",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 81,
    "savings": 51.48,
@@ -2068,7 +2815,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 26573,
+   "age_minutes": 26589,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -2078,7 +2825,18 @@
     "it": "https://www.amazon.it/s?k=Beats+360+Polster-Set+-+in+ALLEN+Farben%21",
     "uk": "https://www.amazon.co.uk/s?k=Beats+360+Polster-Set+-+in+ALLEN+Farben%21"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 12.47,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "preisjaeger:370737"
+    }
+   ]
   },
   {
    "id": "mydealz:2853791",
@@ -2123,6 +2881,13 @@
    "seller": "marketplace",
    "market_price": 5.8,
    "market_source": "pepper",
+   "baseline_price": 5.8,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 89,
    "savings": 5.14,
@@ -2131,7 +2896,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 28000,
+   "age_minutes": 28015,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2141,7 +2906,18 @@
     "it": "https://www.amazon.it/s?k=intellinet+Netzwerkkabel+Cat5e+U%2FUTP+CCA+Cat5e+kompatibel+RJ45-Stecker",
     "uk": "https://www.amazon.co.uk/s?k=intellinet+Netzwerkkabel+Cat5e+U%2FUTP+CCA+Cat5e+kompatibel+RJ45-Stecker"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 0.66,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2853791"
+    }
+   ]
   },
   {
    "id": "mydealz:2853762",
@@ -2192,6 +2968,13 @@
    "seller": "marketplace",
    "market_price": 15.0,
    "market_source": "pepper",
+   "baseline_price": 15.0,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 77,
    "savings": 11.6,
@@ -2200,7 +2983,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 28053,
+   "age_minutes": 28069,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2210,7 +2993,18 @@
     "it": "https://www.amazon.it/dp/B0G27TSLNF",
     "uk": "https://www.amazon.co.uk/dp/B0G27TSLNF"
    },
-   "amazon_eu_kind": "product"
+   "amazon_eu_kind": "product",
+   "merchant_name": "Amazon.fr",
+   "merchant_country": "FR",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 3.4,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2853762"
+    }
+   ]
   },
   {
    "id": "mydealz:2853475",
@@ -2260,6 +3054,13 @@
    "seller": "marketplace",
    "market_price": 17.9,
    "market_source": "pepper",
+   "baseline_price": 17.9,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 89,
    "savings": 15.9,
@@ -2268,7 +3069,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 29064,
+   "age_minutes": 29080,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2278,7 +3079,18 @@
     "it": "https://www.amazon.it/dp/B09JSCH3SZ",
     "uk": "https://www.amazon.co.uk/dp/B09JSCH3SZ"
    },
-   "amazon_eu_kind": "product"
+   "amazon_eu_kind": "product",
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 2.0,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2853475"
+    }
+   ]
   },
   {
    "id": "mydealz:2853111",
@@ -2323,6 +3135,13 @@
    "seller": "marketplace",
    "market_price": 14.0,
    "market_source": "pepper",
+   "baseline_price": 14.0,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 74,
    "savings": 10.31,
@@ -2331,7 +3150,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 30311,
+   "age_minutes": 30326,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2341,7 +3160,18 @@
     "it": "https://www.amazon.it/s?k=Pelikan+griffix+ergonomische+Dreikant-Bleistifte+aus+Holz%2C+Minen-St%C3%A4rke+HB%2C",
     "uk": "https://www.amazon.co.uk/s?k=Pelikan+griffix+ergonomische+Dreikant-Bleistifte+aus+Holz%2C+Minen-St%C3%A4rke+HB%2C"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 3.69,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "mydealz:2853111"
+    }
+   ]
   },
   {
    "id": "mydealz:2853063",
@@ -2373,18 +3203,24 @@
    "market_floor": null,
    "market_sources": [],
    "history_low": null,
-   "score": 36,
-   "level": "normal",
+   "score": 0,
+   "level": "rejected",
    "reasons": [
-    "Marque reconnue (Lenovo)",
-    "[EXPIRÉ]"
+    "Prix absent ou nul"
    ],
-   "rejected": null,
+   "rejected": "Prix absent ou nul",
    "brand": "Lenovo",
    "seller": "unknown",
    "market_price": null,
-   "market_source": null,
-   "catalog_name": null,
+   "market_source": "catalog",
+   "baseline_price": 1000.0,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Prix absent ou nul",
+     "points": 0
+    }
+   ],
+   "catalog_name": "ThinkPad T16",
    "real_discount": null,
    "savings": null,
    "resale_margin": null,
@@ -2392,9 +3228,22 @@
    "decimal_error": false,
    "family": "Ordinateur portable",
    "price_verified": false,
-   "age_minutes": 30437,
+   "age_minutes": 30452,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "amazon_eu": {
+    "fr": "https://www.amazon.fr/s?k=ThinkPad+T16",
+    "de": "https://www.amazon.de/s?k=ThinkPad+T16",
+    "es": "https://www.amazon.es/s?k=ThinkPad+T16",
+    "it": "https://www.amazon.it/s?k=ThinkPad+T16",
+    "uk": "https://www.amazon.co.uk/s?k=ThinkPad+T16"
+   },
+   "amazon_eu_kind": "search",
+   "merchant_name": "group24 AG",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2852994",
@@ -2421,12 +3270,13 @@
     "✅ CERTIFIED PRICE GLITCH",
     "📉 -73% sous le prix marché",
     "📚 Base catalogue : RTX 5070",
+    "🔗 URL marchande résolue",
     "🏪 Enseigne réputée",
-    "Marque reconnue (Nvidia)",
+    "Marque reconnue (Zotac)",
     "[EXPIRÉ]"
    ],
    "rejected": null,
-   "brand": "Nvidia",
+   "brand": "Zotac",
    "seller": "retailer",
    "market_price": 620.0,
    "market_source": "catalog",
@@ -2438,7 +3288,7 @@
    "decimal_error": false,
    "family": "GPU",
    "price_verified": true,
-   "age_minutes": 30601,
+   "age_minutes": 30616,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2455,7 +3305,35 @@
    "enriched_at": "2026-11-02T20:11:08+00:00",
    "market_median": null,
    "market_floor": null,
-   "market_sources": []
+   "market_sources": [],
+   "redirect_checked": "2026-11-02T20:27:17+00:00",
+   "merchant_url": "https://www.mediamarkt.de/de/product/_zotac-gaming-geforce-rtx-5070-twin-edge-oc-nvidia-grafikkarte-155851793.html",
+   "merchant_host": "www.mediamarkt.de",
+   "product_url": "https://www.mediamarkt.de/de/product/_zotac-gaming-geforce-rtx-5070-twin-edge-oc-nvidia-grafikkarte-155851793.html",
+   "baseline_price": 620.0,
+   "score_breakdown": [
+    {
+     "label": "Remise de 73 % vs base catalogue",
+     "points": 28.7
+    },
+    {
+     "label": "Enseigne réputée",
+     "points": 7
+    },
+    {
+     "label": "Marque reconnue (Zotac)",
+     "points": 15
+    },
+    {
+     "label": "Plancher CERTIFIED (−73 % sur une marque connue)",
+     "points": 48.3
+    }
+   ],
+   "merchant_name": "MediaMarkt",
+   "merchant_country": "DE",
+   "merchant_kind": "retailer",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "hotukdeals:5003417",
@@ -2497,6 +3375,13 @@
    "seller": "unknown",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -2505,9 +3390,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 30743,
+   "age_minutes": 30759,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "Heinz",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 4.5,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "hotukdeals:5003417"
+    }
+   ]
   },
   {
    "id": "mydealz:2852900",
@@ -2546,7 +3442,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 30803,
+   "age_minutes": 30818,
    "is_fresh": false,
    "active": false,
    "temperature": -38.27,
@@ -2558,7 +3454,19 @@
    "market_floor": 11.99,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 11.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Talk-Point",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2852607",
@@ -2597,7 +3505,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 31821,
+   "age_minutes": 31837,
    "is_fresh": false,
    "active": false,
    "temperature": 151.09,
@@ -2609,7 +3517,19 @@
    "market_floor": 1829.1,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 1829.1,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "B&amp;M Distribution",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2852415",
@@ -2648,7 +3568,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 32366,
+   "age_minutes": 32381,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2668,7 +3588,19 @@
    "market_floor": 14.75,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 14.75,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "mydealz:2852410",
@@ -2707,7 +3639,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 32375,
+   "age_minutes": 32391,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2727,7 +3659,19 @@
    "market_floor": 8.82,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 8.82,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "mydealz:2852146",
@@ -2766,7 +3710,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 33570,
+   "age_minutes": 33585,
    "is_fresh": false,
    "active": false,
    "temperature": 173.76,
@@ -2778,7 +3722,19 @@
    "market_floor": 24.99,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 24.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Talk-Point",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2851902",
@@ -2817,7 +3773,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 34635,
+   "age_minutes": 34650,
    "is_fresh": false,
    "active": false,
    "temperature": 64.2,
@@ -2826,7 +3782,19 @@
    "enriched_at": "2026-11-02T20:11:08+00:00",
    "market_median": null,
    "market_floor": null,
-   "market_sources": []
+   "market_sources": [],
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": null,
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2851171",
@@ -2865,7 +3833,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 36515,
+   "age_minutes": 36531,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2885,7 +3853,19 @@
    "market_floor": 13.99,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 13.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "preisjaeger:370410",
@@ -2925,13 +3905,20 @@
    "score": 0,
    "level": "rejected",
    "reasons": [
-    "Clé / code numérique"
+    "Prix absent ou nul"
    ],
-   "rejected": "Clé / code numérique",
+   "rejected": "Prix absent ou nul",
    "brand": "Sony",
    "seller": "unknown",
    "market_price": null,
    "market_source": "pepper",
+   "baseline_price": 24.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Prix absent ou nul",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -2940,9 +3927,14 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 37618,
+   "age_minutes": 37633,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "PlayStation Store",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2850801",
@@ -2981,7 +3973,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 37683,
+   "age_minutes": 37698,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3001,7 +3993,19 @@
    "market_floor": 24.97,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 24.97,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "mydealz:2850159",
@@ -3040,7 +4044,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 38999,
+   "age_minutes": 39015,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3057,7 +4061,19 @@
    "enriched_at": "2026-11-02T20:11:08+00:00",
    "market_median": null,
    "market_floor": null,
-   "market_sources": []
+   "market_sources": [],
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "preisjaeger:370288",
@@ -3092,13 +4108,20 @@
    "score": 0,
    "level": "rejected",
    "reasons": [
-    "Clé / code numérique"
+    "Prix absent ou nul"
    ],
-   "rejected": "Clé / code numérique",
+   "rejected": "Prix absent ou nul",
    "brand": "Sony",
    "seller": "unknown",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Prix absent ou nul",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -3107,9 +4130,14 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 39286,
+   "age_minutes": 39301,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "PlayStation Store",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "preisjaeger:370287",
@@ -3150,13 +4178,20 @@
    "score": 0,
    "level": "rejected",
    "reasons": [
-    "Clé / code numérique"
+    "Prix absent ou nul"
    ],
-   "rejected": "Clé / code numérique",
+   "rejected": "Prix absent ou nul",
    "brand": "Sony",
    "seller": "unknown",
    "market_price": null,
    "market_source": "pepper",
+   "baseline_price": 0.01,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Prix absent ou nul",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -3165,9 +4200,14 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": false,
-   "age_minutes": 39303,
+   "age_minutes": 39319,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "PlayStation Store",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2849922",
@@ -3191,9 +4231,9 @@
    "score": 0,
    "level": "rejected",
    "reasons": [
-    "Clé / code numérique"
+    "Prix absent ou nul"
    ],
-   "rejected": "Clé / code numérique",
+   "rejected": "Prix absent ou nul",
    "brand": "Sony",
    "seller": "unknown",
    "market_price": null,
@@ -3206,7 +4246,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": false,
-   "age_minutes": 39309,
+   "age_minutes": 39325,
    "is_fresh": false,
    "active": false,
    "temperature": 4402.48,
@@ -3218,7 +4258,19 @@
    "market_floor": 39.99,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 39.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Prix absent ou nul",
+     "points": 0
+    }
+   ],
+   "merchant_name": "PlayStation",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "preisjaeger:370244",
@@ -3260,6 +4312,13 @@
    "seller": "unknown",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -3268,9 +4327,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 39622,
+   "age_minutes": 39638,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "OBI",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 32.99,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "preisjaeger:370244"
+    }
+   ]
   },
   {
    "id": "mydealz:2849507",
@@ -3309,7 +4379,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 39652,
+   "age_minutes": 39668,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3329,7 +4399,19 @@
    "market_floor": 89.85,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 89.85,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "mydealz:2849389",
@@ -3368,7 +4450,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 39723,
+   "age_minutes": 39739,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3388,7 +4470,19 @@
    "market_floor": 43.0,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 43.0,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "mydealz:2848964",
@@ -3427,7 +4521,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 40296,
+   "age_minutes": 40311,
    "is_fresh": false,
    "active": false,
    "temperature": 142.79,
@@ -3439,7 +4533,19 @@
    "market_floor": 38.31,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 38.31,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": null,
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "dealabs:3425046",
@@ -3481,6 +4587,13 @@
    "seller": "retailer",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Clé / code numérique",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -3489,9 +4602,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 42083,
+   "age_minutes": 42098,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "MediaMarkt",
+   "merchant_country": "DE",
+   "merchant_kind": "retailer",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 0.01,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "dealabs:3425046"
+    }
+   ]
   },
   {
    "id": "mydealz:2848284",
@@ -3530,7 +4654,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 42186,
+   "age_minutes": 42202,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3550,7 +4674,19 @@
    "market_floor": 63.11,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 63.11,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "mydealz:2847840",
@@ -3589,7 +4725,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 43689,
+   "age_minutes": 43705,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3609,7 +4745,19 @@
    "market_floor": 76.9,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 76.9,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "mydealz:2847767",
@@ -3633,9 +4781,9 @@
    "score": 0,
    "level": "rejected",
    "reasons": [
-    "Ni marque reconnue ni vendeur réputé"
+    "Prix absent ou nul"
    ],
-   "rejected": "Ni marque reconnue ni vendeur réputé",
+   "rejected": "Prix absent ou nul",
    "brand": null,
    "seller": "unknown",
    "market_price": null,
@@ -3648,7 +4796,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 43814,
+   "age_minutes": 43830,
    "is_fresh": false,
    "active": false,
    "temperature": 630.51,
@@ -3656,7 +4804,19 @@
    "enriched_at": "2026-11-02T20:11:08+00:00",
    "market_median": null,
    "market_floor": null,
-   "market_sources": []
+   "market_sources": [],
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Prix absent ou nul",
+     "points": 0
+    }
+   ],
+   "merchant_name": "McDonald's",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2847213",
@@ -3697,7 +4857,7 @@
    "decimal_error": false,
    "family": "Ordinateur portable",
    "price_verified": false,
-   "age_minutes": 45378,
+   "age_minutes": 45394,
    "is_fresh": false,
    "active": false,
    "temperature": -5.32,
@@ -3706,7 +4866,27 @@
    "enriched_at": "2026-11-02T20:11:08+00:00",
    "market_median": null,
    "market_floor": null,
-   "market_sources": []
+   "market_sources": [],
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Marketplace (vendeur non précisé)",
+     "points": 3
+    },
+    {
+     "label": "Marque reconnue (Dell)",
+     "points": 15
+    },
+    {
+     "label": "Votes communautaires (-5°, -0°/h)",
+     "points": -15
+    }
+   ],
+   "merchant_name": "Kaufland",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "preisjaeger:369926",
@@ -3743,18 +4923,23 @@
     "pepper"
    ],
    "history_low": null,
-   "score": 68,
-   "level": "hot",
+   "score": 0,
+   "level": "rejected",
    "reasons": [
-    "📉 -100% sous le prix marché",
-    "Marque reconnue (Canon)",
-    "[EXPIRÉ]"
+    "Pièce détachée / consommable"
    ],
-   "rejected": null,
+   "rejected": "Pièce détachée / consommable",
    "brand": "Canon",
    "seller": "unknown",
    "market_price": 36.0,
    "market_source": "pepper",
+   "baseline_price": 36.0,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Pièce détachée / consommable",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 100,
    "savings": 35.9,
@@ -3763,9 +4948,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 47591,
+   "age_minutes": 47606,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "INTERSPAR",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 0.1,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "preisjaeger:369926"
+    }
+   ]
   },
   {
    "id": "mydealz:2846135",
@@ -3804,7 +5000,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 47802,
+   "age_minutes": 47818,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3824,7 +5020,19 @@
    "market_floor": 29.94,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 29.94,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "preisjaeger:369903",
@@ -3871,6 +5079,13 @@
    "seller": "unknown",
    "market_price": 19.99,
    "market_source": "pepper",
+   "baseline_price": 19.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 89,
    "savings": 17.7,
@@ -3879,9 +5094,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 48077,
+   "age_minutes": 48093,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "INTERSPAR",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 2.29,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "preisjaeger:369903"
+    }
+   ]
   },
   {
    "id": "mydealz:2845783",
@@ -3920,7 +5146,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 48973,
+   "age_minutes": 48988,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3940,7 +5166,19 @@
    "market_floor": 7.69,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 7.69,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": []
   },
   {
    "id": "mydealz:2844804",
@@ -3979,7 +5217,7 @@
    "decimal_error": false,
    "family": "Smartphone",
    "price_verified": true,
-   "age_minutes": 51943,
+   "age_minutes": 51959,
    "is_fresh": false,
    "active": false,
    "temperature": 156.38,
@@ -3991,7 +5229,19 @@
    "market_floor": 12.99,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 12.99,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Accessoire générique",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Talk-Point",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2844731",
@@ -4030,7 +5280,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 52210,
+   "age_minutes": 52226,
    "is_fresh": false,
    "active": false,
    "temperature": 66.19,
@@ -4042,7 +5292,19 @@
    "market_floor": 1.15,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 1.15,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Joybuy",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "mydealz:2844723",
@@ -4081,7 +5343,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 52231,
+   "age_minutes": 52247,
    "is_fresh": false,
    "active": false,
    "temperature": 173.48,
@@ -4093,7 +5355,19 @@
    "market_floor": 32.9,
    "market_sources": [
     "pepper"
-   ]
+   ],
+   "baseline_price": 32.9,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
+   "merchant_name": "Joybuy",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "dealabs:3420363",
@@ -4134,6 +5408,13 @@
    "seller": "unknown",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -4142,9 +5423,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 52593,
+   "age_minutes": 52608,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "McDonald's",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 2.4,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "dealabs:3420363"
+    }
+   ]
   },
   {
    "id": "preisjaeger:369629",
@@ -4181,13 +5473,20 @@
    "score": 0,
    "level": "rejected",
    "reasons": [
-    "Ni marque reconnue ni vendeur réputé"
+    "Prix absent ou nul"
    ],
-   "rejected": "Ni marque reconnue ni vendeur réputé",
+   "rejected": "Prix absent ou nul",
    "brand": null,
    "seller": "unknown",
    "market_price": null,
    "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Prix absent ou nul",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": null,
    "savings": null,
@@ -4196,9 +5495,14 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 56896,
+   "age_minutes": 56912,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "dm drogerie markt",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": []
   },
   {
    "id": "preisjaeger:369172",
@@ -4245,6 +5549,13 @@
    "seller": "marketplace",
    "market_price": 21.17,
    "market_source": "pepper",
+   "baseline_price": 21.17,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 86,
    "savings": 18.17,
@@ -4253,7 +5564,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 63837,
+   "age_minutes": 63852,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -4263,7 +5574,18 @@
     "it": "https://www.amazon.it/s?k=Fleece+Hoodie+Damen+mit+Katzentasche+Hundetasche+Oversize+Pullover",
     "uk": "https://www.amazon.co.uk/s?k=Fleece+Hoodie+Damen+mit+Katzentasche+Hundetasche+Oversize+Pullover"
    },
-   "amazon_eu_kind": "search"
+   "amazon_eu_kind": "search",
+   "merchant_name": "Amazon.de",
+   "merchant_country": "DE",
+   "merchant_kind": "marketplace",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 3.0,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "preisjaeger:369172"
+    }
+   ]
   },
   {
    "id": "preisjaeger:368731",
@@ -4308,6 +5630,13 @@
    "seller": "unknown",
    "market_price": 132.89,
    "market_source": "pepper",
+   "baseline_price": 132.89,
+   "score_breakdown": [
+    {
+     "label": "Rejetée : Ni marque reconnue ni vendeur réputé",
+     "points": 0
+    }
+   ],
    "catalog_name": null,
    "real_discount": 69,
    "savings": 91.99,
@@ -4316,9 +5645,20 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 85773,
+   "age_minutes": 85789,
    "is_fresh": false,
-   "active": false
+   "active": false,
+   "merchant_name": "alza",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 40.9,
+     "at": "2026-11-02T20:11:03+00:00",
+     "deal": "preisjaeger:368731"
+    }
+   ]
   }
  ]
 }

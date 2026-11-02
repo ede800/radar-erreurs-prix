@@ -309,6 +309,41 @@ def _rss(*items):
             + "".join(items) + "</channel></rss>").encode()
 
 
+def test_decode_redirect_and_merchant_info():
+    from scraper.price_verifier import decode_redirect, merchant_info, visit_url
+    location = ("https://path.dealabs.com/pepper-fr/redirect?url=https%3A%2F%2Fwww.amazon.fr%2Fdp%2FB0F8R66NMJ"
+                "%3Fsmid%3DA1X6FK5RDHNB96&product=ppr-fr-1&tag=eugc")
+    target = decode_redirect(location)
+    assert target == "https://www.amazon.fr/dp/B0F8R66NMJ?smid=A1X6FK5RDHNB96"
+    info = merchant_info(target)
+    assert info["asin"] == "B0F8R66NMJ" and info["amazon_seller"] == "amazon"
+    assert "amazon_seller" not in merchant_info("https://www.amazon.de/dp/B0F8R66NMJ?smid=AXXXXXXXXXXXX")
+    nested = "https://www.awin1.com/cread.php?awinmid=1&ued=https%3A%2F%2Fwww.fnac.com%2Fa1%2Fw-4"
+    assert decode_redirect(f"https://path.dealabs.com/r?url={__import__('urllib.parse').parse.quote(nested)}") \
+        == "https://www.fnac.com/a1/w-4"
+    assert visit_url({"id": "mydealz:42", "link": "https://www.mydealz.de/deals/x-42"}) \
+        == "https://www.mydealz.de/visit/threadmain/42"
+
+
+def test_resolve_redirect_never_contacts_tracker_or_merchant():
+    from scraper.price_verifier import resolve_redirect
+    hosts = []
+
+    def handler(request):
+        hosts.append(request.url.host)
+        assert request.url.path == "/visit/threadmain/7"
+        return httpx.Response(302, headers={"location": "https://path.dealabs.com/r?url=https%3A%2F%2Fshop.test%2Fp"})
+
+    async def go():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:
+            ok = await resolve_redirect(client, "https://www.dealabs.com/visit/threadmain/7")
+            refused = await resolve_redirect(client, "https://tracker.test/click?id=1")
+            return ok, refused
+
+    assert run(go()) == ("https://shop.test/p", None)
+    assert hosts == ["www.dealabs.com"]
+
+
 def test_full_cycle(tmp_path):
     site = {"id": "dealabs", "name": "Dealabs", "country": "FR", "base": "https://www.dealabs.com",
             "glitch": "/rss/groupe/erreur-de-prix", "fresh": "/rss/tous"}
@@ -335,6 +370,9 @@ def test_full_cycle(tmp_path):
             return httpx.Response(200, text=pages[request.url.path])
         if request.url.host == "discord.test":
             return httpx.Response(204)
+        if request.url.path == "/visit/threadmain/1":
+            return httpx.Response(302, headers={"location": "https://path.dealabs.com/pepper-fr/redirect?url="
+                                                "https%3A%2F%2Fwww.amazon.fr%2Fdp%2FB0F8R66NMJ%3Fsmid%3DA1X6FK5RDHNB96"})
         return httpx.Response(404)
 
     settings = Settings(data_file=tmp_path / "deals.json", db_path=tmp_path / "history.db")
@@ -362,3 +400,8 @@ def test_full_cycle(tmp_path):
     assert [d["id"] for d in first["sent"]] == ["dealabs:1"]
     assert second["sent"] == []                                         # jamais deux fois
     assert requests.count("/bons-plans/p-1") == 1                       # enrichissement mis en cache
+    assert requests.count("/visit/threadmain/1") == 1                   # redirection résolue une seule fois
+    assert deal["asin"] == "B0F8R66NMJ" and deal["amazon_seller"] == "amazon"
+    assert deal["seller"] == "direct"
+    assert deal["cart_url"].startswith("https://www.amazon.fr/gp/aws/cart/add.html?ASIN.1=B0F8R66NMJ")
+    assert "/dp/B0F8R66NMJ" not in requests and "/pepper-fr/redirect" not in requests

@@ -19,8 +19,9 @@ from . import glitch_engine
 from .history import History, product_key
 from .merchant_apis import checkout_links, extract_asin
 from .notifier import Notifier
-from .price_verifier import PriceVerifier
+from .price_verifier import PriceVerifier, merchant_info, resolve_redirect, visit_url
 from .reference_catalog import lookup as catalog_lookup
+from .sources.french_retailers import identify_merchant
 
 ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_VERSION = 2
@@ -30,6 +31,7 @@ CARRIED_FIELDS = (
     "first_seen", "temperature", "next_best_price", "expired", "link_host", "enriched_at",
     "market_median", "market_floor", "market_sources", "asin", "ean", "product_url", "cart_url", "alerted",
     "live_price", "live_available", "live_brand", "live_url", "live_corrected",
+    "merchant_url", "merchant_host", "amazon_seller", "amazon_seller_id", "redirect_checked",
 )
 
 
@@ -43,6 +45,8 @@ class Settings:
     enrich_ttl_minutes: float = 15
     max_enrich: int = 40
     enrich_concurrency: int = 6
+    redirect_min_score: int = 60      # résolution de l'URL marchande pour les meilleurs candidats
+    max_redirects: int = 10
 
 
 def load_data(path: Path) -> dict:
@@ -157,6 +161,36 @@ class Radar:
 
         await asyncio.gather(*(one(d) for d in todo))
 
+    async def _resolve_redirects(self, deals: list[dict], now: datetime) -> list[dict]:
+        """URL marchande réelle (et ASIN / vendeur Amazon) des meilleurs candidats, une seule fois
+        par annonce : une requête vers Pepper, en-tête Location lu sans suivre la redirection."""
+        todo = [d for d in deals if (d.get("score") or 0) >= self.settings.redirect_min_score
+                and not d.get("rejected") and not d.get("redirect_checked") and d["source"] in self.sources]
+        # Meilleurs scores d'abord ; à score égal, marchands français / UE prioritaires.
+        todo.sort(key=lambda d: (-(d.get("score") or 0), not identify_merchant(d)["priority_merchant"]))
+        todo = todo[: self.settings.max_redirects]
+        semaphore = asyncio.Semaphore(self.settings.enrich_concurrency)
+        stamp = now.isoformat(timespec="seconds")
+
+        async def one(deal: dict) -> None:
+            url = visit_url(deal)
+            if not url:
+                return
+            async with semaphore:
+                target = await resolve_redirect(self.client, url)
+            deal["redirect_checked"] = stamp
+            if not target:
+                return
+            info = merchant_info(target)
+            if deal.get("asin"):
+                info.pop("asin", None)
+            deal.update(info)
+            if "amazon." not in info["merchant_host"]:
+                deal.setdefault("product_url", target)
+
+        await asyncio.gather(*(one(d) for d in todo))
+        return todo
+
     async def cycle(self, now: datetime | None = None) -> dict:
         now = now or datetime.now(timezone.utc)
         settings = self.settings
@@ -182,6 +216,7 @@ class Radar:
             deal["history_low"] = self.history.lowest_price(key, deal.get("currency"), exclude_deal=deal["id"])
             glitch_engine.qualify(deal, now)
             deal.update(checkout_links(deal))
+            deal.update(identify_merchant(deal))
             if deal.get("stream") == "fresh" and not glitch_engine.is_candidate(deal, now):
                 self.history.mark_seen(deal["id"], now, kept=False)
                 continue
@@ -189,6 +224,14 @@ class Radar:
                 self.history.mark_seen(deal["id"], now, kept=True)
                 self.history.record_price(deal, now)
             kept.append(deal)
+        # Les candidats dont l'URL marchande vient d'être résolue sont requalifiés
+        # (ASIN → liens Amazon, « vendu par Amazon » → vendeur officiel).
+        for deal in await self._resolve_redirects(kept, now):
+            glitch_engine.qualify(deal, now)
+            deal.update(checkout_links(deal))
+            deal.update(identify_merchant(deal))
+        for deal in kept:
+            deal["price_history"] = self.history.price_points(product_key(deal), deal.get("currency"))
         self.history.prune(now)
         self.history.commit()
 

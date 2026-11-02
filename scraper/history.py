@@ -100,6 +100,15 @@ class History:
             (product_key(deal), deal["id"], price, deal.get("currency"), now.isoformat(timespec="seconds")),
         )
 
+    def price_points(self, key: str, currency: str | None, limit: int = 12) -> list[dict]:
+        """Derniers prix observés pour ce produit (toutes annonces confondues), du plus ancien au plus récent."""
+        rows = self.conn.execute(
+            "SELECT price, seen_at, deal_id FROM prices WHERE product_key = ? AND currency IS ? "
+            "ORDER BY seen_at DESC, rowid DESC LIMIT ?",
+            (key, currency, limit),
+        ).fetchall()
+        return [{"price": p, "at": at, "deal": d} for p, at, d in reversed(rows)]
+
     # --- Alertes ---------------------------------------------------------------
     def already_alerted(self, deal_id: str, price: float | None) -> bool:
         """Vrai si l'annonce a déjà été notifiée à ce prix ou moins cher."""

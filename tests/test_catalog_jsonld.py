@@ -40,26 +40,62 @@ def make(**fields):
     ("Apple AirPods Pro 2 (USB-C)", "AirPods Pro 2", 210),
     ("Dyson V15 Detect Absolute", "Dyson V15", 550),
     ("Sony WH-1000XM5 noir", "Sony WH-1000XM5", 290),
-    ("LG OLED evo C5 65\" 4K", "TV OLED 65\"", 1300),
-    ("Samsung OLED S90D 55 pouces", "TV OLED 55\"", 950),
+    ("LG OLED evo C5 65\" 4K", "TV OLED 65\"", 1200),
+    ("Samsung OLED S90D 55 pouces", "TV OLED 55\"", 850),
+    ("Sony Bravia 8 II OLED 77\"", "TV OLED 77\"", 1200),
+    ("LG UltraGear OLED 27\" 240 Hz", "Écran OLED 27\"", 600),
+    # PC et portables complets : base du GPU + 450 €
+    ("PC de bureau Alienware Aurora R16 - i9 285K, RTX 5080", "PC fixe RTX 5080", 1600),
+    ("PC de bureau Alienware Aurora R16 - i9 285K, RTX 5080, SSD 8 To, Refroidissement Liquide", "PC fixe RTX 5080", 1600),
+    ("PC portable Asus TUF Gaming A16 RTX 5070", "Ordinateur portable RTX 5070", 1070),
+    ("PC gamer Ryzen 7 9800X3D RTX 5070 Ti", "PC fixe RTX 5070 Ti", 1330),
+    ("Alienware Aurora R16 i7 32 Go", "Alienware Aurora", 1400),
+    ("Lenovo ThinkPad T16 Gen 3", "ThinkPad T16", 1000),
+    ("Lenovo ThinkPad X1 Carbon Gen 13", "ThinkPad X1 Carbon", 1300),
+    ("Apple Mac mini M4 16 Go", "Mac mini M4", 650),
+    # Stockage par capacité
+    ("SANDISK Creator Class 10 microSDXC Memory Card - 512 GB", "Stockage 512 Go", 35),
+    ("SanDisk Extreme microSD 1 To + adaptateur SD", "Stockage 1 To", 65),
+    ("Samsung 990 Pro SSD NVMe M.2 2 To", "Stockage 2 To", 120),
+    ("Crucial T705 SSD 4TB PCIe 5.0", "Stockage 4 To", 230),
+    # Divers
+    ("Garmin Fenix 8 AMOLED 47 mm", "Garmin Fenix 7/8", 500),
+    ("GoPro HERO13 Black", "GoPro Hero 12/13", 320),
+    ("DJI Mini 4 Pro Fly More Combo", "DJI Mini 3/4 Pro", 600),
+    ("DJI Osmo Pocket 3 Creator Combo", "DJI Osmo Pocket 3", 480),
+    ("KitchenAid Artisan 5KSM175PS", "KitchenAid Artisan", 380),
+    ("Vorwerk Thermomix TM7", "Thermomix", 1100),
+    ("Philips Hue White & Color Starter Kit E27", "Philips Hue Starter Kit", 110),
+    ("Valve Steam Deck OLED 1 To", "Steam Deck OLED", 520),
+    ("ASUS ROG Ally X 1 To", "ROG Ally X", 750),
+    ("Xbox Series X 1 To", "Xbox Series X", 450),
+    ("Samsung Galaxy S25 Ultra 512 Go", "Galaxy S25 Ultra", 1000),
 ])
 def test_catalog_matches(title, name, price):
     match = lookup(title)
     assert match is not None and match.name == name and match.price == price
 
 
+def test_catalog_has_80_plus_products():
+    from scraper.reference_catalog import catalog_size
+    assert catalog_size() >= 80
+
+
 @pytest.mark.parametrize("title", [
     "Coque pour AirPods Pro 2",
     "Verre trempé iPhone 16 Pro",
-    "PC de bureau Alienware Aurora R16 - i9 285K, RTX 5080",
-    "PC portable Asus TUF Gaming A16 RTX 5070",
+    "PC gamer Ryzen 7 9800X3D 32 Go DDR5",   # PC sans GPU identifié : pas la base d'un CPU
+    "WD Elements disque dur 4 To",
+    "Câble d'alimentation pour PC RTX 5080",
+    "Boîtier PC gamer compatible RTX 5070",
+    "Lecteur de cartes SanDisk microSD 1 To",
+    "Forza Horizon 5 Xbox Series X",
     "Elden Ring PS5",
     "Mario Kart World Switch 2",
     "Manette DualSense PS5",
     "Filtre Dyson V15",
     "Support mural TV OLED 65\"",
     "Philips Hue Lightstrip für 55 Zoll TV",
-    "Meta Quest 3S",
     "iPhone 16 avec forfait 5G",
     "Chaise de jardin",
 ])

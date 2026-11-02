@@ -95,6 +95,16 @@ def test_fat_finger_by_category():
     assert not is_fat_finger(19.0, "Chaise de jardin")                  # famille inconnue
 
 
+@pytest.mark.parametrize("title", [
+    "Cyberpunk 2077: Ultimate Edition sur PS5",
+    "Mortal Kombat: Legacy Kollection sur Nintendo Switch",
+    "EA Sports FC 26 PS5",
+])
+def test_games_are_not_fat_fingered_consoles(title):
+    assert not is_fat_finger(34.99, title)
+    assert is_fat_finger(34.99, "Console Sony PS5 Slim")
+
+
 def test_fat_finger_without_market_data():
     a = analyze(make(title="Carte graphique MSI RTX 5080", price=99.0, merchant="LDLC"), NOW)
     assert a.decimal_error
@@ -152,11 +162,63 @@ def test_case_for_iphone_is_not_an_apple_product():
     assert a.rejected == "Accessoire générique"
 
 
-def test_branded_accessory_and_cheap_items_are_never_certified():
-    pads = analyze(make(title="Beats 360 Polster-Set (Ohrmuscheln + Kopfbügel)", merchant="Amazon",
-                        price=12.47, next_best_price=63.95), NOW)
-    assert pads.brand == "Beats" and not pads.rejected
-    assert not pads.certified and pads.score < 80
+@pytest.mark.parametrize("title", [
+    "Beats 360 Polster-Set (Ohrmuscheln + Kopfbügel, UltraPlush)",
+    "Coussinets de remplacement Sony WH-1000XM5",
+    "Bracelet de montre Apple Watch Ultra",
+    "Samsung Galaxy Watch Armband",
+    "Canon Druckerpatrone 570-PGBK + 571-CMYB",
+    "Dyson V15 Ersatzteile Akku",
+])
+def test_spare_parts_rejected_even_with_brand(title):
+    a = analyze(make(title=title, merchant="Amazon", price=12.47, next_best_price=63.95), NOW)
+    assert a.rejected == "Pièce détachée / consommable"
+    assert a.score == 0
+
+
+@pytest.mark.parametrize("title,merchant", [
+    ("Preisfehler? O2 Netz, Sim Only: Allnet/SMS Flat Unlimited 5G für 31,99€/Monat", "Media Markt Tarifwelt"),
+    ("Forfait Free 5G 350 Go à 9,99€/mois", "Free Mobile"),
+    ("iPhone 16 + Vertrag Telekom MagentaMobil", "Telekom"),
+    ("Samsung Galaxy S25 avec forfait 24 mois", "Boulanger"),
+    ("NordVPN 2 ans", "NordVPN"),
+    ("Octopus Energy Ökostrom Tarif", "Octopus Energy"),
+    ("Leasing Tesla Model 3", "Tesla"),
+    ("Boursobank : 150 € offerts à l'ouverture d'un compte bancaire", "Boursobank"),
+])
+def test_subscriptions_and_services_rejected(title, merchant):
+    a = analyze(make(title=title, merchant=merchant, price=759.75, next_best_price=1500.0), NOW)
+    assert a.rejected == "Abonnement / forfait / service"
+
+
+@pytest.mark.parametrize("price", [None, 0.0, -1.0])
+def test_deals_without_valid_price_are_rejected(price):
+    a = analyze(make(title="Lenovo ThinkPad T16 Gen 3", price=price), NOW)
+    assert a.rejected == "Prix absent ou nul" and a.score == 0
+
+
+def test_power_bank_is_not_a_bank_offer():
+    a = analyze(make(title="Anker Power Bank 20000 mAh", merchant="Fnac", price=20.0), NOW)
+    assert a.rejected != "Abonnement / forfait / service"
+
+
+def test_steam_deck_sold_on_steam_is_physical():
+    a = analyze(make(title="Valve Steam Deck OLED 1 To", merchant="Steam", price=52.0), NOW)
+    assert a.rejected is None and a.certified
+
+
+def test_amazon_seller_id_makes_official_seller():
+    a = analyze(make(title="Sony WH-1000XM5", merchant="Amazon", price=250.0, amazon_seller="amazon"), NOW)
+    assert a.seller == "direct" and "🏪 Vendeur officiel" in a.reasons
+
+
+def test_baseline_is_reported_even_without_discount():
+    a = analyze(make(title="PC de bureau Alienware Aurora R16 - i9 285K, RTX 5080", merchant="Amazon",
+                     price=1704.3), NOW)
+    assert a.market_price is None and a.baseline_price == 1600 and a.market_source == "catalog"
+
+
+def test_cheap_items_are_never_certified():
     cheap = analyze(make(title="Sony SRS-XB100", price=4.0, next_best_price=39.0), NOW)
     assert not cheap.certified
 

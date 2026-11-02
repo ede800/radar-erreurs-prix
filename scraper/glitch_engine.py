@@ -22,6 +22,7 @@ import re
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 
+from .reference_catalog import _CONSOLE as CONSOLE_NAMING
 from .reference_catalog import lookup as catalog_lookup
 
 # --- Référentiels ---------------------------------------------------------------
@@ -39,6 +40,7 @@ BRANDS = [
     "Tineco", "Shark", "Ninja", "Bang & Olufsen", "Marshall", "Fujifilm", "GoPro",
     "Ubisoft", "Electronic Arts", "Bandai", "Thermomix", "Vorwerk", "Karcher", "Kärcher",
     "Netgear", "TP-Link", "Synology", "Withings", "Fitbit", "Jabra", "Dreame", "Babyliss",
+    "Insta360", "Valve", "Lexar", "Crucial", "Sabrent", "Steelseries", "HyperX", "Zotac", "Sapphire",
 ]
 # Noms de produits qui impliquent une marque.
 PRODUCT_LINES = {
@@ -47,7 +49,10 @@ PRODUCT_LINES = {
     "xbox": "Microsoft", "surface": "Microsoft", "galaxy": "Samsung", "pixel": "Google",
     "geforce": "Nvidia", "rtx": "Nvidia", "radeon": "AMD", "ryzen": "AMD",
     "nintendo switch": "Nintendo", "thinkpad": "Lenovo", "rog": "Asus", "zenbook": "Asus",
-    "bravia": "Sony", "oled evo": "LG",
+    "bravia": "Sony", "oled evo": "LG", "mac mini": "Apple", "mac studio": "Apple",
+    "steam deck": "Valve", "meta quest": "Meta", "quest 3": "Meta", "quest 3s": "Meta",
+    "legion go": "Lenovo", "ps vr2": "Sony", "switch 2": "Nintendo", "switch oled": "Nintendo",
+    "switch lite": "Nintendo",
 }
 _BRAND_RE = re.compile(
     r"(?<![\w-])(" + "|".join(re.escape(b) for b in sorted(BRANDS, key=len, reverse=True)) + r")(?![\w-])",
@@ -112,6 +117,7 @@ DECIMAL_TOLERANCE = 0.15            # ± 15 % autour du ratio
 INFLATED_FACTOR = 1.8               # prix barré > 1,8 × meilleur prix ailleurs
 NONAME_INFLATED_DISCOUNT = 80       # « 120 € → 12 € » sur un produit sans marque
 CERTIFIED_MIN_MARKET = 50           # pas de certification pour un article de moins de 50 €
+SPARE_PART_MAX_PRICE = 50           # pièce / accessoire ≤ 50 € : rejet ; au-delà, pas de bonus de marque
 
 
 # --- Briques élémentaires ---------------------------------------------------------
@@ -219,7 +225,7 @@ DIGITAL_RE = re.compile(
 DIGITAL_CONTENT_RE = re.compile(
     r"d[ée]mat[ée]rialis[ée]|\bdigital(?:e)? (?:code|version|edition|download)|download[- ]?code|"
     r"code de t[ée]l[ée]chargement|\bdlc\b|\be-?shop\b|\bps store\b|playstation store|xbox store|"
-    r"microsoft store|\bsteam\b|epic games|game ?pass|minecoins|v-?bucks|\bgog\b|ubisoft connect",
+    r"microsoft store|\bsteam\b(?!\s?deck)|epic games|game ?pass|minecoins|v-?bucks|\bgog\b|ubisoft connect",
     re.IGNORECASE,
 )
 DIGITAL_MERCHANTS = [
@@ -229,6 +235,40 @@ DIGITAL_MERCHANTS = [
 ]
 # Noms ambigus (la boutique physique existe aussi) : seulement s'ils sont le nom exact du marchand.
 DIGITAL_MERCHANTS_EXACT = {"xbox", "playstation", "nintendo", "bandai namco", "ubisoft", "microsoft"}
+
+# Abonnements, forfaits, contrats, services : on ne chasse que des biens physiques.
+SUBSCRIPTION_RE = re.compile(
+    r"\bforfaits?\b|\btarifs?\b|tarifwelt|\bvertrag\b|vertr[äa]ge|laufzeit|\bsim[- ]?only\b|\bsim[- ]?karte\b|"
+    r"\besim\b|\babonnements?\b|\babo\b|\bsubscription\b|monatlich|\bmtl\.|"
+    r"(?:€|eur|£)\s?/\s?(?:mois|monat|month|mo)\b|/\s?(?:mois|monat|month)\b|"
+    r"\bpar mois\b|\bpro monat\b|\bper month\b|\ba month\b|\b\d+\s?(?:monate|mois|months)\b|"
+    r"\ballnet\b|\bflatrate\b|\bdatenvolumen\b|\bairtime\b|\bunlimited data\b|"
+    r"\bbox internet\b|\boffre (?:fibre|adsl|box)\b|\bglasfaser\b|\bdsl\b|\bbroadband\b|"
+    r"\bvpn\b|\bstromtarif|\bökostrom|\bgastarif|\bfournisseur d'?(?:électricité|énergie|gaz)\b|"
+    r"\bénergie verte\b|\benergy tariff\b|\bleasing\b|\blocation longue\b|\bloa\b|\blld\b|"
+    r"\bcompte bancaire\b|\bgirokonto\b|\bbank account\b|\bkreditkarte\b|\bcarte de crédit\b|"
+    r"\bcredit card\b|\bprime bancaire\b|\bassurance\b|\bversicherung\b|\binsurance\b|"
+    r"\bo2\b|\bvodafone\b|\btelekom\b|\bmagentamobil\b|\bsfr\b|\bbouygues\b|\bfree mobile\b|\bsosh\b",
+    re.IGNORECASE,
+)
+SUBSCRIPTION_MERCHANT_RE = re.compile(
+    r"tarif|mobilfunk|\bo2\b|vodafone|telekom|\b1&1\b|congstar|\borange\b|\bsfr\b|bouygues|"
+    r"free mobile|\bsosh\b|red by sfr|b&you|\bee\b|\bthree\b|giffgaff|lebara|lycamobile|\bvoxi\b|"
+    r"nordvpn|surfshark|expressvpn|cyberghost|\bengie\b|totalenergies|\bedf\b|\be\.on\b|octopus energy|"
+    r"\bboursobank\b|\bfortuneo\b|\bhello bank\b|\bn26\b|\brevolut\b|\bcheck24\b|\bverivox\b",
+    re.IGNORECASE,
+)
+# Pièces détachées et consommables : jamais le produit lui-même, donc jamais de bonus de marque.
+SPARE_PART_RE = re.compile(
+    r"\bcoussinets?\b|\bear ?pads?\b|\bear ?cushions?\b|\bohrpolster\b|\bpolster(?:-?set)?\b|"
+    r"\bersatzteile?\b|\bersatz(?:-?\w+)?\b|\breplacement\b|\bremplacement\b|\bpi[èe]ces? d[ée]tach[ée]es?\b|"
+    r"\bspare parts?\b|\bbracelets? de montre\b|\bwatch ?bands?\b|\buhrenarmband\b|\barmband\b|\bstraps?\b|"
+    r"\b(?:watch|montre|uhr)\s?band\b|\bembouts?\b|\bear ?tips\b|\bfiltres?\b|\bfilter\b|\bbrosses?\b|"
+    r"\bcartouches?\b|\bdruckerpatronen?\b|\btintenpatronen?\b|\btoner\b|\bink cartridges?\b|"
+    r"\bsacs? aspirateur\b|\bstaubsaugerbeutel\b|\bbracelets?\b|\bcoques?\b|\bh[üu]llen?\b|"
+    r"\bschutzfolien?\b|\bschutzglas\b|\bverre tremp[ée]\b|\bfilm de protection\b|\bscreen protectors?\b",
+    re.IGNORECASE,
+)
 
 # Fourchettes de prix habituelles par famille de produits (détection « prix × 10 »).
 CATEGORY_PRICE_RANGES = [
@@ -256,12 +296,23 @@ def product_family(title: str) -> tuple[str, float, float] | None:
     return None
 
 
+# Jeux, éditions, DLC : « Cyberpunk 2077 sur PS5 » à 35 € n'est pas une PS5 à 350 €.
+GAME_RE = re.compile(
+    r"\b(?:jeux?|games?|spiel|edition|[ée]dition|ultimate|deluxe|collection|kollektion|kollection|"
+    r"remaster(?:ed)?|remake|goty|dlc|season pass|steelbook|amiibo|figurine|"
+    r"(?:sur|on|auf|f[üu]r|pour|for)\s+(?:la\s+|die\s+)?(?:ps[45]|playstation\s?[45]|xbox|nintendo|switch))\b",
+    re.IGNORECASE,
+)
+
+
 def is_fat_finger(price: float | None, title: str) -> bool:
     """« 89 € au lieu de 890 € » : prix × 10 tombe dans la fourchette habituelle de la famille
     alors que le prix lui-même est très en dessous du bas de fourchette."""
     family = product_family(title)
-    if not price or not family:
+    if not price or not family or GAME_RE.search(title):
         return False
+    if family[0] == "Console" and not re.search(CONSOLE_NAMING, title, re.IGNORECASE):
+        return False                        # « EA Sports FC 26 PS5 » : un jeu, pas une console
     _, low, high = family
     return low <= price * 10 <= high and price < low * 0.5
 
@@ -287,6 +338,8 @@ class Analysis:
     age_minutes: int | None = None
     is_fresh: bool = False
     active: bool = True
+    baseline_price: float | None = None     # prix marché / base catalogue, même sans remise
+    breakdown: list[dict] = field(default_factory=list)   # détail des points du score
 
     def as_fields(self) -> dict:
         return {
@@ -298,6 +351,8 @@ class Analysis:
             "seller": self.seller,
             "market_price": self.market_price,
             "market_source": self.market_source,
+            "baseline_price": self.baseline_price,
+            "score_breakdown": self.breakdown,
             "catalog_name": self.catalog_name,
             "real_discount": self.real_discount,
             "savings": self.savings,
@@ -357,6 +412,8 @@ def analyze(deal: dict, now: datetime | None = None) -> Analysis:
     brand = (find_brand(title, accessory) or find_brand(deal.get("merchant") or "", accessory)
              or find_brand(deal.get("live_brand") or "", accessory))
     seller = classify_seller(deal.get("merchant"), title, description)
+    if deal.get("amazon_seller") == "amazon":
+        seller = "direct"
     family = product_family(title)
     family_name = catalog.family if catalog else (family[0] if family else None)
 
@@ -382,17 +439,27 @@ def analyze(deal: dict, now: datetime | None = None) -> Analysis:
     def rejected(reason: str) -> Analysis:
         return Analysis(0, "rejected", [reason], reason, brand, seller, market_price, discount,
                         savings, margin, family=family_name, verified=verified, market_source=market_source,
-                        catalog_name=catalog_name, age_minutes=age_minutes, is_fresh=is_fresh, active=active)
+                        catalog_name=catalog_name, age_minutes=age_minutes, is_fresh=is_fresh, active=active,
+                        baseline_price=market, breakdown=[{"label": f"Rejetée : {reason}", "points": 0}])
 
-    # Filtre strict anti-déchets / dropshipping.
+    # Filtre strict : biens physiques avec un prix exploitable uniquement.
     merchant_name = deal.get("merchant") or ""
-    if (DIGITAL_RE.search(title) or DIGITAL_CONTENT_RE.search(title) or _matches(merchant_name, DIGITAL_MERCHANTS)
-            or merchant_name.strip().lower() in DIGITAL_MERCHANTS_EXACT):
+    if price is None or price <= 0:
+        return rejected("Prix absent ou nul")
+    if SUBSCRIPTION_RE.search(title) or SUBSCRIPTION_MERCHANT_RE.search(merchant_name):
+        return rejected("Abonnement / forfait / service")
+    spare_part = bool(SPARE_PART_RE.search(title))
+    physical = catalog_lookup(title, "EUR") is not None     # Steam Deck vendu sur Steam : physique
+    if (DIGITAL_RE.search(title) or DIGITAL_CONTENT_RE.search(title)
+            or (not physical and (_matches(merchant_name, DIGITAL_MERCHANTS)
+                                  or merchant_name.strip().lower() in DIGITAL_MERCHANTS_EXACT))):
         return rejected("Clé / code numérique")
     if seller == "dropship" and not brand:
         return rejected("Dropshipping sans marque")
     if not brand and accessory:
         return rejected("Accessoire générique")
+    if spare_part and price <= SPARE_PART_MAX_PRICE:
+        return rejected("Pièce détachée / consommable")
     if not brand and seller not in ("direct", "retailer"):
         return rejected("Ni marque reconnue ni vendeur réputé")
     # « RTX 5070 à 165 € chez un vendeur tiers » est l'appât d'arnaque classique : le catalogue
@@ -403,20 +470,31 @@ def analyze(deal: dict, now: datetime | None = None) -> Analysis:
         return rejected("Prix barré gonflé")
 
     reasons: list[str] = []
+    breakdown: list[dict] = []
+    points = 0.0
+
+    def add(label: str, value: float) -> None:
+        nonlocal points
+        if value:
+            points += value
+            breakdown.append({"label": label, "points": round(value, 1)})
+
     # « Prix × 10 » par famille : seulement si aucun prix marché ne montre un prix ordinaire
     # (un ruban LED « pour TV 55" » à 102 € n'est pas une TV à 1 020 €).
     market_ratio = price / market if verified and price is not None else None
     fat_finger = is_fat_finger(price, title) and (market_ratio is None or market_ratio <= 0.3)
     decimal = is_decimal_error(price, reference) or fat_finger
-    # Certification réservée aux vrais produits de valeur (pas aux accessoires / consommables).
-    certified = bool(brand and verified and not accessory and market >= CERTIFIED_MIN_MARKET
+    # Certification réservée aux vrais produits de valeur (pas aux accessoires / pièces / consommables).
+    certified = bool(brand and verified and not accessory and not spare_part and market >= CERTIFIED_MIN_MARKET
                      and ratio is not None and ratio >= CERTIFIED_DISCOUNT)
 
-    points = _discount_points(discount) * (1.0 if verified else 0.6)
+    if discount is not None:
+        basis = {"catalog": "base catalogue"}.get(market_source or "", "prix marché") if verified else "prix barré (×0,6)"
+        add(f"Remise de {discount} % vs {basis}", _discount_points(discount) * (1.0 if verified else 0.6))
     if certified:
         reasons.append("✅ CERTIFIED PRICE GLITCH")
     if decimal:
-        points += 20
+        add("Erreur de virgule / fat finger", 20)
         reasons.append("⚡ Erreur de virgule")
     if verified and discount is not None and discount > 0:
         reasons.append(f"📉 -{discount}% sous le prix marché")
@@ -424,34 +502,40 @@ def analyze(deal: dict, now: datetime | None = None) -> Analysis:
         reasons.append("Prix barré non vérifié")
     if catalog and verified:
         reasons.append(f"📚 Base catalogue : {catalog.name}")
+    if deal.get("merchant_url"):
+        reasons.append("🔗 URL marchande résolue")
     if inflated:
         reasons.append("Prix barré gonflé")
 
     if seller == "direct":
-        points += 10
+        add("Vendeur officiel (vendu et expédié par l'enseigne)", 10)
         reasons.append("🏪 Vendeur officiel")
     elif seller == "retailer":
-        points += 7
+        add("Enseigne réputée", 7)
         reasons.append("🏪 Enseigne réputée")
     elif seller == "marketplace":
-        points += 3
+        add("Marketplace (vendeur non précisé)", 3)
     elif seller == "third_party":
-        points -= 10
+        add("Vendeur tiers", -10)
         reasons.append("Vendeur tiers")
-    if brand:
-        points += 15
+    if brand and not spare_part:
+        add(f"Marque reconnue ({brand})", 15)
         reasons.append(f"Marque reconnue ({brand})")
+    elif spare_part:
+        reasons.append("Pièce / accessoire (> 50 €)")
     if deal.get("glitch_keyword"):
-        points += 5
+        add("Signalée comme erreur de prix", 5)
 
     history_low = deal.get("history_low")
     if history_low and price is not None and price <= FLASH_DROP_RATIO * history_low:
-        points += 10
+        add("Chute éclair sous le plus bas historique", 10)
         reasons.append("💥 Chute éclair")
 
     velocity = vote_velocity(temperature, published, now)
     vote = _vote_points(temperature, velocity)
-    points += vote
+    if temperature is not None:
+        speed = f", {velocity:.0f}°/h" if velocity is not None else ""
+        add(f"Votes communautaires ({temperature:.0f}°{speed})", vote)
     if vote < 0:
         reasons.append("Votes négatifs")
     elif velocity is not None and velocity >= 50:
@@ -459,10 +543,12 @@ def analyze(deal: dict, now: datetime | None = None) -> Analysis:
     if age_minutes is not None and age_minutes < FRESH_MINUTES:
         reasons.append(f"🔥 Posté il y a < {FRESH_MINUTES} min")
 
-    if certified:
-        points = max(points, certified_score(ratio))
-    if vote < 0:
-        points = min(points, 60)        # la communauté conteste l'erreur : signal intrinsèque
+    if certified and certified_score(ratio) > points:
+        add(f"Plancher CERTIFIED (−{discount} % sur une marque connue)", certified_score(ratio) - points)
+    if vote < 0 and points > 60:
+        add("Plafond : la communauté conteste l'erreur", 60 - points)
+    if points > 100:
+        add("Plafond à 100", 100 - points)
 
     # L'expiration ne modifie pas le score intrinsèque : elle est signalée à part.
     if deal.get("expired"):
@@ -481,7 +567,7 @@ def analyze(deal: dict, now: datetime | None = None) -> Analysis:
         level = "normal"
     return Analysis(score, level, reasons, None, brand, seller, market_price, discount, savings,
                     margin, certified, decimal, family_name, verified, market_source, catalog_name,
-                    age_minutes, is_fresh, active)
+                    age_minutes, is_fresh, active, market, breakdown)
 
 
 def is_candidate(deal: dict, now: datetime | None = None) -> bool:

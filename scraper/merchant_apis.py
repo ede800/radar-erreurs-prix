@@ -90,7 +90,7 @@ def checkout_links(deal: dict) -> dict:
     links: dict = {}
     if asin:
         links["asin"] = asin
-        if deal.get("marketplace") == "Amazon":
+        if deal.get("marketplace") == "Amazon" or "amazon." in (deal.get("merchant_host") or ""):
             links.update(amazon_links(asin, amazon_domain(deal)))
         links["amazon_eu"] = amazon_eu_links(asin)
         links["amazon_eu_kind"] = "product"

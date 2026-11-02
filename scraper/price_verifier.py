@@ -20,7 +20,7 @@ import re
 import statistics
 import sys
 from dataclasses import dataclass, field
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, unquote, urlparse
 
 import httpx
 
@@ -176,6 +176,92 @@ async def resolve_product(client: httpx.AsyncClient, url: str, timeout: float = 
         product["url"] = str(response.url)
         product["comparator"] = is_comparator(str(response.url))
     return product
+
+
+# --- Résolution des redirections Pepper -------------------------------------------------------
+#
+# /visit/threadmain/<id> répond 302 avec un Location du type
+#   https://path.dealabs.com/pepper-fr/redirect?url=https%3A%2F%2Fwww.amazon.fr%2Fdp%2FB0…%3Fsmid%3D…
+# On lit cet en-tête SANS suivre la redirection, puis on décode le paramètre : ni le traceur
+# d'affiliation ni le marchand ne sont contactés. Un second saut n'est fait que s'il reste
+# sur un domaine Pepper.
+
+PEPPER_HOSTS = ("dealabs.com", "mydealz.de", "preisjaeger.at", "hotukdeals.com", "pepper.com")
+REDIRECT_PARAMS = ("url", "u", "redirect", "redirect_url", "redirectUrl", "ued", "murl", "dest",
+                   "destination", "target", "to", "r", "link", "deeplink")
+# Identifiants vendeur (smid) d'Amazon lui-même : « vendu et expédié par Amazon ».
+AMAZON_SELLER_IDS = {
+    "A1X6FK5RDHNB96": "amazon.fr", "A3JWKAKR8XB7XF": "amazon.de", "A3P5ROKL5A1OLE": "amazon.co.uk",
+    "A11IL2PNWYJU7H": "amazon.it", "A1AT7YVPFBWXBL": "amazon.es",
+}
+ASIN_IN_URL_RE = re.compile(r"/(?:dp|gp/product|gp/aw/d)/(B0[A-Z0-9]{8}|\d{9}[\dX])", re.IGNORECASE)
+
+
+def _is_pepper(url: str) -> bool:
+    host = (urlparse(url).hostname or "").lower()
+    return any(host == h or host.endswith("." + h) for h in PEPPER_HOSTS)
+
+
+def visit_url(deal: dict) -> str | None:
+    """URL de redirection Pepper d'une annonce (/visit/threadmain/<id>)."""
+    link = urlparse(deal.get("link") or "")
+    if not link.hostname or ":" not in deal.get("id", ""):
+        return None
+    thread_id = deal["id"].split(":", 1)[1]
+    return f"{link.scheme}://{link.hostname}/visit/threadmain/{thread_id}" if thread_id.isdigit() else None
+
+
+def decode_redirect(location: str, depth: int = 3) -> str:
+    """Déroule les URL encodées dans les paramètres de redirection (url=, u=, ued=…)."""
+    url = location
+    for _ in range(depth):
+        query = parse_qs(urlparse(url).query)
+        nested = next((query[k][0] for k in REDIRECT_PARAMS if k in query and query[k][0].startswith("http")), None)
+        if not nested:
+            nested = next((unquote(v[0]) for k, v in query.items()
+                           if k in REDIRECT_PARAMS and unquote(v[0]).startswith("http")), None)
+        if not nested:
+            break
+        url = nested
+    return url
+
+
+def merchant_info(url: str) -> dict:
+    """URL marchande → hôte, ASIN, vendeur Amazon (smid)."""
+    parsed = urlparse(url)
+    info: dict = {"merchant_url": url, "merchant_host": (parsed.hostname or "").lower()}
+    if "amazon." in info["merchant_host"]:
+        if match := ASIN_IN_URL_RE.search(parsed.path):
+            info["asin"] = match.group(1).upper()
+        smid = (parse_qs(parsed.query).get("smid") or parse_qs(parsed.query).get("m") or [None])[0]
+        if smid:
+            info["amazon_seller_id"] = smid
+            if smid in AMAZON_SELLER_IDS:
+                info["amazon_seller"] = "amazon"
+    return info
+
+
+async def resolve_redirect(client: httpx.AsyncClient, url: str, max_hops: int = 2,
+                           timeout: float = JSONLD_TIMEOUT) -> str | None:
+    """Lit l'en-tête Location sans charger la page cible ; renvoie l'URL marchande décodée."""
+    current = url
+    for _ in range(max_hops):
+        if not _is_pepper(current):
+            return None                     # on ne contacte jamais un traceur ni un marchand
+        try:
+            response = await client.get(current, headers=browser_headers(), timeout=timeout,
+                                        follow_redirects=False)
+        except httpx.HTTPError:
+            return None
+        location = response.headers.get("location")
+        if response.status_code not in (301, 302, 303, 307, 308) or not location:
+            return None
+        location = str(response.request.url.join(location))
+        decoded = decode_redirect(location)
+        if not _is_pepper(decoded):
+            return decoded
+        current = decoded                   # redirection interne à Pepper : un saut de plus
+    return None
 
 
 class PriceVerifier:
