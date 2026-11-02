@@ -1,12 +1,14 @@
 name: Mise à jour des erreurs de prix
 
+# Secours du daemon temps réel (python -m scraper.daemon) : GitHub ne garantit pas
+# l'horaire des crons, les vraies erreurs de prix se jouent en quelques minutes.
 on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scraper/**", "tests/**"]
+    paths: ["scraper/**", "tests/**", "requirements.txt"]
 
 permissions:
   contents: write
@@ -24,12 +26,36 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+
+      - name: Dépendances
+        run: pip install -r requirements.txt
 
       - name: Tests
-        run: python -m unittest discover -s tests
+        run: python -m pytest -q
 
-      - name: Récupération des annonces
-        run: python scraper/fetch.py
+      # Mémoire SQLite (déduplication des alertes, plus bas historiques) conservée entre exécutions.
+      - name: Restauration de data/history.db
+        uses: actions/cache/restore@v4
+        with:
+          path: data/history.db
+          key: history-${{ github.run_id }}
+          restore-keys: history-
+
+      - name: Récupération et analyse des annonces
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          KEEPA_API_KEY: ${{ secrets.KEEPA_API_KEY }}
+        run: python -m scraper.fetch
+
+      - name: Sauvegarde de data/history.db
+        if: always() && hashFiles('data/history.db') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: data/history.db
+          key: history-${{ github.run_id }}
 
       - name: Commit des nouvelles données
         run: |
@@ -40,5 +66,6 @@ jobs:
             echo "Pas de nouvelles annonces."
           else
             git commit -m "Mise à jour des erreurs de prix"
+            git pull --rebase --autostash
             git push
           fi
