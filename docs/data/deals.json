@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-07T16:40:22+00:00",
+ "updated": "2026-11-07T20:35:53+00:00",
  "sources": [
   {
    "id": "dealabs",
@@ -37,6 +37,265 @@
  ],
  "deals": [
   {
+   "id": "mydealz:2866622",
+   "title": "Kingsglaive: Final Fantasy XV ~ 3,99€ | UHD digital | Apple TV",
+   "link": "https://www.mydealz.de/deals/kingsglaive-final-fantasy-xv-399eur-uhd-digital-apple-tv-2866622",
+   "merchant": "Apple TV Plus",
+   "marketplace": "Autre",
+   "price": 3.99,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Kultur & Freizeit",
+   "image": "https://static.mydealz.de/threads/raw/MLE3y/2866622_1/re/150x150/qt/55/2866622_1.jpg",
+   "description": "Aktuell erhaltet ihr bei Apple TV den Film Kingsglaive: Final Fantasy XV für 3,99€ in UHD. Der Film hat eine IMDb Bewertung von 6,7 / 10. Eher selten im Sale. Kingsglaive: Final Fantasy XV Trailer [shortcode id=\"20344271\"/] Infos zum Film Das magische Königreich Lucis…",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-11-07T20:08:34+00:00",
+   "stream": "fresh",
+   "glitch_keyword": false,
+   "merchant_links": [
+    "https://www.imdb.com/de/title/tt5595168/"
+   ],
+   "asin": null,
+   "ean": null,
+   "first_seen": "2026-11-07T20:35:53+00:00",
+   "temperature": 32.9,
+   "next_best_price": 9.99,
+   "expired": false,
+   "link_host": "tv.apple.com",
+   "enriched_at": "2026-11-07T20:35:53+00:00",
+   "market_median": 9.99,
+   "market_floor": 9.99,
+   "market_sources": [
+    "pepper"
+   ],
+   "history_low": null,
+   "score": 54,
+   "level": "hot",
+   "reasons": [
+    "📉 -60% sous le prix marché",
+    "🏪 Enseigne réputée",
+    "Marque reconnue (Apple)",
+    "📈 Votes rapides"
+   ],
+   "rejected": null,
+   "brand": "Apple",
+   "seller": "retailer",
+   "market_price": 9.99,
+   "market_source": "pepper",
+   "baseline_price": 9.99,
+   "score_breakdown": [
+    {
+     "label": "Remise de 60 % vs prix marché",
+     "points": 20.0
+    },
+    {
+     "label": "Enseigne réputée",
+     "points": 7
+    },
+    {
+     "label": "Marque reconnue (Apple)",
+     "points": 15
+    },
+    {
+     "label": "Votes communautaires (33°, 66°/h)",
+     "points": 12
+    }
+   ],
+   "catalog_name": null,
+   "real_discount": 60,
+   "savings": 6.0,
+   "resale_margin": 4.5,
+   "certified": false,
+   "decimal_error": false,
+   "family": "TV",
+   "price_verified": true,
+   "age_minutes": 27,
+   "is_fresh": true,
+   "active": true,
+   "merchant_name": "Apple",
+   "merchant_country": "EU",
+   "merchant_kind": "retailer",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 3.99,
+     "at": "2026-11-07T20:35:53+00:00",
+     "deal": "mydealz:2866622"
+    }
+   ]
+  },
+  {
+   "id": "mydealz:2866620",
+   "title": "Govee Pixel Gaming Licht",
+   "link": "https://www.mydealz.de/deals/govee-pixel-gaming-licht-2866620",
+   "merchant": "Govee",
+   "marketplace": "Autre",
+   "price": 49.99,
+   "original_price": null,
+   "discount": null,
+   "currency": "EUR",
+   "category": "Gaming",
+   "image": "https://static.mydealz.de/threads/raw/dO9Z4/2866620_1/re/150x150/qt/55/2866620_1.jpg",
+   "description": "Nächster Preis ist bei 62€ Durchschnittlicher Preis in den letzten 90 Tagen ebenfalls bei 62€. • KI-gesteuert • Dynamische Animationen • Musiksynchronisation • DIY-Optionen",
+   "source": "mydealz",
+   "country": "DE",
+   "published": "2026-11-07T20:03:52+00:00",
+   "stream": "fresh",
+   "glitch_keyword": false,
+   "merchant_links": [],
+   "asin": null,
+   "ean": null,
+   "first_seen": "2026-11-07T20:35:53+00:00",
+   "temperature": 19.62,
+   "next_best_price": 99.99,
+   "expired": false,
+   "link_host": "eu.govee.com",
+   "enriched_at": "2026-11-07T20:35:53+00:00",
+   "market_median": 99.99,
+   "market_floor": 99.99,
+   "market_sources": [
+    "pepper"
+   ],
+   "history_low": null,
+   "score": 36,
+   "level": "hot",
+   "reasons": [
+    "📉 -50% sous le prix marché",
+    "Marque reconnue (Google)"
+   ],
+   "rejected": null,
+   "brand": "Google",
+   "seller": "unknown",
+   "market_price": 99.99,
+   "market_source": "pepper",
+   "baseline_price": 99.99,
+   "score_breakdown": [
+    {
+     "label": "Remise de 50 % vs prix marché",
+     "points": 13.3
+    },
+    {
+     "label": "Marque reconnue (Google)",
+     "points": 15
+    },
+    {
+     "label": "Votes communautaires (20°, 37°/h)",
+     "points": 8
+    }
+   ],
+   "catalog_name": null,
+   "real_discount": 50,
+   "savings": 50.0,
+   "resale_margin": 35.0,
+   "certified": false,
+   "decimal_error": false,
+   "family": null,
+   "price_verified": true,
+   "age_minutes": 32,
+   "is_fresh": false,
+   "active": true,
+   "merchant_name": "Govee",
+   "merchant_country": null,
+   "merchant_kind": null,
+   "priority_merchant": false,
+   "price_history": [
+    {
+     "price": 49.99,
+     "at": "2026-11-07T20:35:53+00:00",
+     "deal": "mydealz:2866620"
+    }
+   ]
+  },
+  {
+   "id": "dealabs:3448689",
+   "title": "PC portable 14\" tactile Lenovo ThinkPad X1 Yoga Gen 6 - Core i7, 32 Go RAM, 512 Go SSD (Reconditionné)",
+   "link": "https://www.dealabs.com/bons-plans/reconditionne-pc-portable-14-tactile-lenovo-thinkpad-x1-yoga-gen-6-core-i7-32-go-ram-512-go-ssd-3448689",
+   "merchant": "Fnac",
+   "marketplace": "Fnac",
+   "price": 679.99,
+   "original_price": 1499.0,
+   "discount": 55,
+   "currency": "EUR",
+   "category": "High-Tech",
+   "image": "https://static-pepper.dealabs.com/threads/raw/o9YmB/3448689_1/re/150x150/qt/55/3448689_1.jpg",
+   "description": "Offre intéressante repérée sur Fnac.com sur cet ordinateur ultraportable professionnel 2-en-1 reconditionné : le Lenovo ThinkPad X1 Yoga Gen 6 dans sa finition argent. Doté d'une configuration très solide (Core i7, 32 Go de RAM, écran tactile), il est affiché avec une belle…",
+   "source": "dealabs",
+   "country": "FR",
+   "published": "2026-11-07T19:03:17+00:00",
+   "stream": "fresh",
+   "glitch_keyword": false,
+   "merchant_links": [
+    "http://Fnac.com",
+    "https://www.fnac.com/PC-portable-Lenovo-ThinkPad-X1-Yoga-G6-14-Ecran-tactile-Intel-Core-i7-32-Go-RAM-512-Go-SSD-Argent-Reconditionne/a23249821/w-4"
+   ],
+   "asin": null,
+   "ean": null,
+   "first_seen": "2026-11-07T20:35:53+00:00",
+   "temperature": 35.37,
+   "expired": false,
+   "link_host": "www.fnac.com",
+   "enriched_at": "2026-11-07T20:35:53+00:00",
+   "market_median": null,
+   "market_floor": null,
+   "market_sources": [],
+   "history_low": null,
+   "score": 40,
+   "level": "hot",
+   "reasons": [
+    "Prix barré non vérifié",
+    "🏪 Enseigne réputée",
+    "Marque reconnue (Lenovo)"
+   ],
+   "rejected": null,
+   "brand": "Lenovo",
+   "seller": "retailer",
+   "market_price": null,
+   "market_source": null,
+   "baseline_price": null,
+   "score_breakdown": [
+    {
+     "label": "Remise de 55 % vs prix barré (×0,6)",
+     "points": 10.0
+    },
+    {
+     "label": "Enseigne réputée",
+     "points": 7
+    },
+    {
+     "label": "Marque reconnue (Lenovo)",
+     "points": 15
+    },
+    {
+     "label": "Votes communautaires (35°, 23°/h)",
+     "points": 8
+    }
+   ],
+   "catalog_name": null,
+   "real_discount": 55,
+   "savings": null,
+   "resale_margin": null,
+   "certified": false,
+   "decimal_error": false,
+   "family": "Ordinateur portable",
+   "price_verified": false,
+   "age_minutes": 92,
+   "is_fresh": false,
+   "active": true,
+   "merchant_name": "Fnac",
+   "merchant_country": "FR",
+   "merchant_kind": "retailer",
+   "priority_merchant": true,
+   "price_history": [
+    {
+     "price": 679.99,
+     "at": "2026-11-07T20:35:53+00:00",
+     "deal": "dealabs:3448689"
+    }
+   ]
+  },
+  {
    "id": "mydealz:2866538",
    "title": "Obi Emmendingen - Kärcher Hochdruckreiniger K Silent Anniversary Edition",
    "link": "https://www.mydealz.de/deals/obi-emmendingen-hochdruckreiniger-k-silent-anniversary-edition-2866538",
@@ -58,11 +317,11 @@
    "asin": null,
    "ean": null,
    "first_seen": "2026-11-07T16:40:22+00:00",
-   "temperature": 23.37,
+   "temperature": 119.97,
    "next_best_price": 174.99,
    "expired": false,
    "link_host": "www.obi.de",
-   "enriched_at": "2026-11-07T16:40:22+00:00",
+   "enriched_at": "2026-11-07T20:35:53+00:00",
    "market_median": 174.99,
    "market_floor": 174.99,
    "market_sources": [
@@ -91,7 +350,7 @@
      "points": 15
     },
     {
-     "label": "Votes communautaires (23°, 47°/h)",
+     "label": "Votes communautaires (120°, 27°/h)",
      "points": 8
     }
    ],
@@ -103,8 +362,8 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 27,
-   "is_fresh": true,
+   "age_minutes": 263,
+   "is_fresh": false,
    "active": true,
    "merchant_name": "OBI",
    "merchant_country": null,
@@ -140,24 +399,23 @@
    "asin": null,
    "ean": null,
    "first_seen": "2026-11-07T16:40:22+00:00",
-   "temperature": 52.71,
+   "temperature": 86.47,
    "next_best_price": 9.99,
    "expired": false,
    "link_host": "tv.apple.com",
-   "enriched_at": "2026-11-07T16:40:22+00:00",
+   "enriched_at": "2026-11-07T20:35:53+00:00",
    "market_median": 9.99,
    "market_floor": 9.99,
    "market_sources": [
     "pepper"
    ],
    "history_low": null,
-   "score": 54,
+   "score": 46,
    "level": "hot",
    "reasons": [
     "📉 -60% sous le prix marché",
     "🏪 Enseigne réputée",
-    "Marque reconnue (Apple)",
-    "📈 Votes rapides"
+    "Marque reconnue (Apple)"
    ],
    "rejected": null,
    "brand": "Apple",
@@ -179,8 +437,8 @@
      "points": 15
     },
     {
-     "label": "Votes communautaires (53°, 51°/h)",
-     "points": 12
+     "label": "Votes communautaires (86°, 17°/h)",
+     "points": 4
     }
    ],
    "catalog_name": null,
@@ -191,7 +449,7 @@
    "decimal_error": false,
    "family": "TV",
    "price_verified": true,
-   "age_minutes": 61,
+   "age_minutes": 297,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Apple",
@@ -228,11 +486,11 @@
    "asin": null,
    "ean": null,
    "first_seen": "2026-11-07T16:40:22+00:00",
-   "temperature": 848.95,
+   "temperature": 1478.27,
    "next_best_price": 104.66,
    "expired": false,
    "link_host": "www.crowdfarming.com",
-   "enriched_at": "2026-11-07T16:40:22+00:00",
+   "enriched_at": "2026-11-07T20:35:53+00:00",
    "market_median": 104.66,
    "market_floor": 104.66,
    "market_sources": [
@@ -264,7 +522,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 295,
+   "age_minutes": 531,
    "is_fresh": false,
    "active": true,
    "merchant_name": "CrowdFarming",
@@ -305,14 +563,14 @@
    "next_best_price": 39.99,
    "expired": false,
    "link_host": "www.auchan.fr",
-   "enriched_at": "2026-11-07T16:40:22+00:00",
+   "enriched_at": "2026-11-07T20:35:53+00:00",
    "market_median": 39.99,
    "market_floor": 39.99,
    "market_sources": [
     "pepper"
    ],
    "history_low": null,
-   "score": 39,
+   "score": 35,
    "level": "hot",
    "reasons": [
     "📉 -50% sous le prix marché",
@@ -337,10 +595,6 @@
     {
      "label": "Marque reconnue (Nintendo)",
      "points": 15
-    },
-    {
-     "label": "Votes communautaires (34°, 5°/h)",
-     "points": 4
     }
    ],
    "catalog_name": null,
@@ -351,7 +605,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": true,
-   "age_minutes": 401,
+   "age_minutes": 636,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Auchan",
@@ -401,7 +655,7 @@
     "pepper"
    ],
    "history_low": null,
-   "score": 39,
+   "score": 35,
    "level": "hot",
    "reasons": [
     "📉 -50% sous le prix marché",
@@ -426,10 +680,6 @@
     {
      "label": "Marque reconnue (Lego)",
      "points": 15
-    },
-    {
-     "label": "Votes communautaires (35°, 5°/h)",
-     "points": 4
     }
    ],
    "catalog_name": null,
@@ -440,7 +690,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 406,
+   "age_minutes": 641,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Auchan",
@@ -518,7 +768,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 1017,
+   "age_minutes": 1253,
    "is_fresh": false,
    "active": true,
    "merchant_name": "JD Sports",
@@ -595,7 +845,7 @@
      "points": 15
     },
     {
-     "label": "Votes communautaires (145°, 8°/h)",
+     "label": "Votes communautaires (145°, 7°/h)",
      "points": 4
     }
    ],
@@ -607,7 +857,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": true,
-   "age_minutes": 1032,
+   "age_minutes": 1267,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Otto",
@@ -648,7 +898,7 @@
    "next_best_price": 1318.0,
    "expired": true,
    "link_host": "www.amazon.de",
-   "enriched_at": "2026-11-07T16:40:22+00:00",
+   "enriched_at": "2026-11-07T20:35:53+00:00",
    "market_median": 1318.0,
    "market_floor": 1318.0,
    "market_sources": [
@@ -699,7 +949,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": true,
-   "age_minutes": 1056,
+   "age_minutes": 1292,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -793,7 +1043,7 @@
    "decimal_error": true,
    "family": "Café",
    "price_verified": false,
-   "age_minutes": 1128,
+   "age_minutes": 1364,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Boulanger",
@@ -877,7 +1127,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 1342,
+   "age_minutes": 1578,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Noirfonce",
@@ -952,7 +1202,7 @@
      "points": 15
     },
     {
-     "label": "Votes communautaires (180°, 7°/h)",
+     "label": "Votes communautaires (180°, 6°/h)",
      "points": 4
     }
    ],
@@ -964,7 +1214,7 @@
    "decimal_error": true,
    "family": "Ordinateur portable",
    "price_verified": false,
-   "age_minutes": 1511,
+   "age_minutes": 1746,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Lenovo",
@@ -1005,7 +1255,7 @@
    "next_best_price": 135.0,
    "expired": true,
    "link_host": "www.norauto.fr",
-   "enriched_at": "2026-11-07T16:40:22+00:00",
+   "enriched_at": "2026-11-07T20:35:53+00:00",
    "market_median": 135.0,
    "market_floor": 135.0,
    "market_sources": [
@@ -1037,7 +1287,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 1952,
+   "age_minutes": 2188,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Norauto",
@@ -1114,7 +1364,7 @@
      "points": 15
     },
     {
-     "label": "Votes communautaires (183°, 5°/h)",
+     "label": "Votes communautaires (183°, 4°/h)",
      "points": 4
     }
    ],
@@ -1126,7 +1376,7 @@
    "decimal_error": false,
    "family": "TV",
    "price_verified": true,
-   "age_minutes": 2255,
+   "age_minutes": 2491,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Apple",
@@ -1203,7 +1453,7 @@
      "points": 15
     },
     {
-     "label": "Votes communautaires (296°, 8°/h)",
+     "label": "Votes communautaires (296°, 7°/h)",
      "points": 8
     }
    ],
@@ -1215,7 +1465,7 @@
    "decimal_error": false,
    "family": "TV",
    "price_verified": true,
-   "age_minutes": 2276,
+   "age_minutes": 2511,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Apple",
@@ -1292,7 +1542,7 @@
      "points": 15
     },
     {
-     "label": "Votes communautaires (310°, 8°/h)",
+     "label": "Votes communautaires (310°, 7°/h)",
      "points": 8
     }
    ],
@@ -1304,7 +1554,7 @@
    "decimal_error": false,
    "family": "TV",
    "price_verified": true,
-   "age_minutes": 2291,
+   "age_minutes": 2526,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Apple",
@@ -1384,7 +1634,7 @@
    "decimal_error": true,
    "family": "Aspirateur",
    "price_verified": false,
-   "age_minutes": 2408,
+   "age_minutes": 2643,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -1484,7 +1734,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 2553,
+   "age_minutes": 2789,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Best Secret",
@@ -1560,7 +1810,7 @@
      "points": 15
     },
     {
-     "label": "Votes communautaires (415°, 9°/h)",
+     "label": "Votes communautaires (415°, 8°/h)",
      "points": 8
     }
    ],
@@ -1572,7 +1822,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": true,
-   "age_minutes": 2815,
+   "age_minutes": 3050,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Joybuy",
@@ -1650,7 +1900,7 @@
    "decimal_error": false,
    "family": "Audio premium",
    "price_verified": true,
-   "age_minutes": 3206,
+   "age_minutes": 3442,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Cultura",
@@ -1722,7 +1972,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 3375,
+   "age_minutes": 3610,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Lidl",
@@ -1808,7 +2058,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 3910,
+   "age_minutes": 4146,
    "is_fresh": false,
    "active": true,
    "product_url": "https://www.amazon.de/dp/B0D4ZC6XGC",
@@ -1888,7 +2138,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 3945,
+   "age_minutes": 4181,
    "is_fresh": false,
    "active": false,
    "merchant_name": "eBay",
@@ -1962,7 +2212,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 3969,
+   "age_minutes": 4205,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Tesco",
@@ -2035,7 +2285,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 3975,
+   "age_minutes": 4210,
    "is_fresh": false,
    "active": true,
    "merchant_name": "DealClub",
@@ -2121,7 +2371,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 4033,
+   "age_minutes": 4269,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Carrefour",
@@ -2196,7 +2446,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 4050,
+   "age_minutes": 4285,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -2280,7 +2530,7 @@
      "points": 15
     },
     {
-     "label": "Votes communautaires (863°, 12°/h)",
+     "label": "Votes communautaires (863°, 11°/h)",
      "points": 12
     }
    ],
@@ -2292,7 +2542,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 4301,
+   "age_minutes": 4537,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -2388,7 +2638,7 @@
    "decimal_error": false,
    "family": "TV",
    "price_verified": true,
-   "age_minutes": 4305,
+   "age_minutes": 4540,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Apple",
@@ -2477,7 +2727,7 @@
    "decimal_error": false,
    "family": "TV",
    "price_verified": true,
-   "age_minutes": 5175,
+   "age_minutes": 5410,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Apple",
@@ -2549,7 +2799,7 @@
      "points": 15
     },
     {
-     "label": "Votes communautaires (227°, 3°/h)",
+     "label": "Votes communautaires (227°, 2°/h)",
      "points": 8
     },
     {
@@ -2565,7 +2815,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": true,
-   "age_minutes": 5280,
+   "age_minutes": 5516,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -2668,7 +2918,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": true,
-   "age_minutes": 5461,
+   "age_minutes": 5696,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -2746,7 +2996,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 5657,
+   "age_minutes": 5893,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Lidl",
@@ -2831,7 +3081,7 @@
    "decimal_error": false,
    "family": "TV",
    "price_verified": true,
-   "age_minutes": 5759,
+   "age_minutes": 5995,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Apple",
@@ -2914,7 +3164,7 @@
    "decimal_error": false,
    "family": "TV",
    "price_verified": true,
-   "age_minutes": 5766,
+   "age_minutes": 6001,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Apple",
@@ -2998,7 +3248,7 @@
    "decimal_error": false,
    "family": "TV",
    "price_verified": true,
-   "age_minutes": 5776,
+   "age_minutes": 6012,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -3090,7 +3340,7 @@
    "decimal_error": false,
    "family": "TV",
    "price_verified": true,
-   "age_minutes": 5778,
+   "age_minutes": 6013,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -3171,7 +3421,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 6248,
+   "age_minutes": 6484,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3252,7 +3502,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 6253,
+   "age_minutes": 6489,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -3333,7 +3583,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 6290,
+   "age_minutes": 6526,
    "is_fresh": false,
    "active": false,
    "merchant_name": "voelkner",
@@ -3422,7 +3672,7 @@
    "decimal_error": false,
    "family": "TV",
    "price_verified": true,
-   "age_minutes": 6640,
+   "age_minutes": 6875,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Apple",
@@ -3510,7 +3760,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 6742,
+   "age_minutes": 6977,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Frasers",
@@ -3584,7 +3834,7 @@
      "points": 15
     },
     {
-     "label": "Votes communautaires (173°, 2°/h)",
+     "label": "Votes communautaires (173°, 1°/h)",
      "points": 4
     }
    ],
@@ -3596,7 +3846,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 6794,
+   "age_minutes": 7029,
    "is_fresh": false,
    "active": true,
    "merchant_name": "OPPO Mobile",
@@ -3674,7 +3924,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": true,
-   "age_minutes": 6964,
+   "age_minutes": 7199,
    "is_fresh": false,
    "active": true,
    "merchant_name": "JoyBuy",
@@ -3746,7 +3996,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 7153,
+   "age_minutes": 7389,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Kaufland",
@@ -3819,7 +4069,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": false,
-   "age_minutes": 7821,
+   "age_minutes": 8057,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Monster-Shop",
@@ -3886,7 +4136,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 8755,
+   "age_minutes": 8991,
    "is_fresh": false,
    "active": false,
    "merchant_name": "XXXLutz",
@@ -3959,7 +4209,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 8865,
+   "age_minutes": 9100,
    "is_fresh": false,
    "active": false,
    "merchant_name": "medpex",
@@ -4029,7 +4279,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 12938,
+   "age_minutes": 13174,
    "is_fresh": false,
    "active": false,
    "merchant_name": null,
@@ -4102,7 +4352,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 13266,
+   "age_minutes": 13501,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -4185,7 +4435,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 13274,
+   "age_minutes": 13509,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -4266,7 +4516,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 14457,
+   "age_minutes": 14692,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -4351,7 +4601,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 14540,
+   "age_minutes": 14775,
    "is_fresh": false,
    "active": false,
    "merchant_name": "OBI",
@@ -4426,7 +4676,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 14558,
+   "age_minutes": 14794,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -4507,7 +4757,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 14918,
+   "age_minutes": 15153,
    "is_fresh": false,
    "active": false,
    "merchant_name": "MediaMarkt",
@@ -4580,7 +4830,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 14922,
+   "age_minutes": 15158,
    "is_fresh": false,
    "active": false,
    "merchant_name": "MediaMarkt",
@@ -4653,7 +4903,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 16403,
+   "age_minutes": 16638,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -4734,7 +4984,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 17193,
+   "age_minutes": 17429,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -4815,7 +5065,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 18442,
+   "age_minutes": 18677,
    "is_fresh": false,
    "active": false,
    "merchant_name": "A.T.U",
@@ -4890,7 +5140,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 18605,
+   "age_minutes": 18841,
    "is_fresh": false,
    "active": true,
    "merchant_name": null,
@@ -4960,7 +5210,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 19726,
+   "age_minutes": 19961,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Bandai Namco",
@@ -5026,7 +5276,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 20560,
+   "age_minutes": 20796,
    "is_fresh": false,
    "active": true,
    "merchant_name": "Kaufland",
@@ -5096,7 +5346,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 21399,
+   "age_minutes": 21635,
    "is_fresh": false,
    "active": false,
    "merchant_name": "PAYBACK",
@@ -5189,7 +5439,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 21732,
+   "age_minutes": 21968,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -5249,7 +5499,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 22593,
+   "age_minutes": 22828,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -5331,7 +5581,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 22701,
+   "age_minutes": 22936,
    "is_fresh": false,
    "active": false,
    "merchant_name": "XXXLutz",
@@ -5423,7 +5673,7 @@
    "decimal_error": false,
    "family": "Aspirateur",
    "price_verified": true,
-   "age_minutes": 22802,
+   "age_minutes": 23038,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Fnac",
@@ -5496,7 +5746,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 23234,
+   "age_minutes": 23470,
    "is_fresh": false,
    "active": false,
    "merchant_name": "XXXLutz",
@@ -5568,7 +5818,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 23283,
+   "age_minutes": 23519,
    "is_fresh": false,
    "active": false,
    "merchant_name": "EDEKA",
@@ -5620,7 +5870,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 24688,
+   "age_minutes": 24924,
    "is_fresh": false,
    "active": true,
    "baseline_price": null,
@@ -5701,7 +5951,7 @@
    "decimal_error": false,
    "family": "Stockage",
    "price_verified": false,
-   "age_minutes": 24908,
+   "age_minutes": 25144,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -5784,7 +6034,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 26247,
+   "age_minutes": 26482,
    "is_fresh": false,
    "active": false,
    "merchant_name": "XXXLutz",
@@ -5857,7 +6107,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 26358,
+   "age_minutes": 26593,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -5937,7 +6187,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 27737,
+   "age_minutes": 27972,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Boots",
@@ -6010,7 +6260,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 27910,
+   "age_minutes": 28146,
    "is_fresh": false,
    "active": false,
    "merchant_name": "LeasingMarkt",
@@ -6093,7 +6343,7 @@
    "decimal_error": false,
    "family": "PC fixe",
    "price_verified": false,
-   "age_minutes": 27941,
+   "age_minutes": 28177,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -6170,7 +6420,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 29003,
+   "age_minutes": 29238,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Kaufland",
@@ -6233,7 +6483,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 29304,
+   "age_minutes": 29539,
    "is_fresh": false,
    "active": false,
    "merchant_name": "HEM Tankstellen",
@@ -6311,7 +6561,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 30782,
+   "age_minutes": 31017,
    "is_fresh": false,
    "active": true,
    "merchant_name": "ASDA Groceries",
@@ -6386,7 +6636,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 33548,
+   "age_minutes": 33783,
    "is_fresh": false,
    "active": true,
    "amazon_eu": {
@@ -6467,7 +6717,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 34974,
+   "age_minutes": 35210,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -6554,7 +6804,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 35028,
+   "age_minutes": 35264,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -6640,7 +6890,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 36038,
+   "age_minutes": 36274,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -6721,7 +6971,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 37285,
+   "age_minutes": 37521,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -6799,7 +7049,7 @@
    "decimal_error": false,
    "family": "Ordinateur portable",
    "price_verified": false,
-   "age_minutes": 37411,
+   "age_minutes": 37647,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -6859,7 +7109,7 @@
    "decimal_error": false,
    "family": "GPU",
    "price_verified": true,
-   "age_minutes": 37575,
+   "age_minutes": 37811,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -6961,7 +7211,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 37718,
+   "age_minutes": 37953,
    "is_fresh": false,
    "active": false,
    "merchant_name": "Heinz",
@@ -7013,7 +7263,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 37777,
+   "age_minutes": 38013,
    "is_fresh": false,
    "active": false,
    "temperature": -38.27,
@@ -7076,7 +7326,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 38796,
+   "age_minutes": 39031,
    "is_fresh": false,
    "active": false,
    "temperature": 151.09,
@@ -7139,7 +7389,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 39340,
+   "age_minutes": 39576,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -7210,7 +7460,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 39350,
+   "age_minutes": 39585,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -7281,7 +7531,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 40544,
+   "age_minutes": 40780,
    "is_fresh": false,
    "active": false,
    "temperature": 173.76,
@@ -7344,7 +7594,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 41609,
+   "age_minutes": 41845,
    "is_fresh": false,
    "active": false,
    "temperature": 64.2,
@@ -7404,7 +7654,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 43490,
+   "age_minutes": 43725,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -7498,7 +7748,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 44592,
+   "age_minutes": 44828,
    "is_fresh": false,
    "active": false,
    "merchant_name": "PlayStation Store",
@@ -7544,7 +7794,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 44657,
+   "age_minutes": 44893,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -7615,7 +7865,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 45973,
+   "age_minutes": 46209,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -7701,7 +7951,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 46260,
+   "age_minutes": 46496,
    "is_fresh": false,
    "active": false,
    "merchant_name": "PlayStation Store",
@@ -7771,7 +8021,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": false,
-   "age_minutes": 46278,
+   "age_minutes": 46513,
    "is_fresh": false,
    "active": false,
    "merchant_name": "PlayStation Store",
@@ -7817,7 +8067,7 @@
    "decimal_error": false,
    "family": "Console",
    "price_verified": false,
-   "age_minutes": 46283,
+   "age_minutes": 46519,
    "is_fresh": false,
    "active": false,
    "temperature": 4402.48,
@@ -7898,7 +8148,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 46597,
+   "age_minutes": 46832,
    "is_fresh": false,
    "active": false,
    "merchant_name": "OBI",
@@ -7950,7 +8200,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 46627,
+   "age_minutes": 46862,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -8021,7 +8271,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 46698,
+   "age_minutes": 46933,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -8092,7 +8342,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 47270,
+   "age_minutes": 47506,
    "is_fresh": false,
    "active": false,
    "temperature": 142.79,
@@ -8173,7 +8423,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 49057,
+   "age_minutes": 49293,
    "is_fresh": false,
    "active": false,
    "merchant_name": "MediaMarkt",
@@ -8225,7 +8475,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 49161,
+   "age_minutes": 49396,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -8296,7 +8546,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 50664,
+   "age_minutes": 50899,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -8367,7 +8617,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 50788,
+   "age_minutes": 51024,
    "is_fresh": false,
    "active": false,
    "temperature": 630.51,
@@ -8428,7 +8678,7 @@
    "decimal_error": false,
    "family": "Ordinateur portable",
    "price_verified": false,
-   "age_minutes": 52353,
+   "age_minutes": 52588,
    "is_fresh": false,
    "active": false,
    "temperature": -5.32,
@@ -8519,7 +8769,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 54565,
+   "age_minutes": 54801,
    "is_fresh": false,
    "active": false,
    "merchant_name": "INTERSPAR",
@@ -8571,7 +8821,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 54777,
+   "age_minutes": 55012,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -8665,7 +8915,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 55052,
+   "age_minutes": 55287,
    "is_fresh": false,
    "active": false,
    "merchant_name": "INTERSPAR",
@@ -8717,7 +8967,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 55947,
+   "age_minutes": 56183,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
@@ -8788,7 +9038,7 @@
    "decimal_error": false,
    "family": "Smartphone",
    "price_verified": true,
-   "age_minutes": 58917,
+   "age_minutes": 59153,
    "is_fresh": false,
    "active": false,
    "temperature": 156.38,
@@ -8851,7 +9101,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 59185,
+   "age_minutes": 59420,
    "is_fresh": false,
    "active": false,
    "temperature": 66.19,
@@ -8914,7 +9164,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 59206,
+   "age_minutes": 59442,
    "is_fresh": false,
    "active": false,
    "temperature": 173.48,
@@ -8994,7 +9244,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 59567,
+   "age_minutes": 59803,
    "is_fresh": false,
    "active": false,
    "merchant_name": "McDonald's",
@@ -9066,7 +9316,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": false,
-   "age_minutes": 63870,
+   "age_minutes": 64106,
    "is_fresh": false,
    "active": false,
    "merchant_name": "dm drogerie markt",
@@ -9135,7 +9385,7 @@
    "decimal_error": false,
    "family": null,
    "price_verified": true,
-   "age_minutes": 70811,
+   "age_minutes": 71047,
    "is_fresh": false,
    "active": false,
    "amazon_eu": {
